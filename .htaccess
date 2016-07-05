@@ -1,9 +1,8 @@
-php_value max_input_vars 6000
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /intercam/
+RewriteBase /borderplex/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /intercam/index.php [L]
+RewriteRule . /borderplex/index.php [L]
 </IfModule>
