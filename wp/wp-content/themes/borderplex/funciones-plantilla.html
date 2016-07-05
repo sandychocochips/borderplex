@@ -1,0 +1,109 @@
+<!-- Loop con foreach -->
+
+<?php
+	$args = array(
+		'post_type' => 'proyecto',
+		'posts_per_page' => -1,
+		'order' => 'DESC',
+		'order_by' => 'date',
+		'post_status' => 'publish'
+	);
+	$proyectos = get_posts($args);
+	$contador = 0;
+?>
+<?php if (count($proyectos) > 0) { ?>
+	<?php foreach ($proyectos as $proyecto) { $contador++; setup_postdata($proyecto); ?>
+	<div class="proyecto_box<?=($contador==1) ? ' long' : '';?>">
+		<div class="titulo_proyecto">
+			<a href="<?php echo get_permalink($proyecto->ID); ?>"><?php echo $proyecto->post_title; ?></a>
+		</div>
+		<div class="detalle_proyecto">
+			<a href="<?php echo get_permalink($proyecto->ID); ?>"><?php echo $proyecto->post_excerpt; ?></a>
+		</div>
+		<figure>
+			<img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($proyecto->ID) ); ?>" alt="proyecto<?php echo $contador; ?>"/>
+			<div class="fondo js-fondo"></div>
+		</figure>
+	</div>
+	<?php wp_reset_postdata(); } ?>
+<?php } else { ?>
+<p>No hay proyectos por el momento.</p>
+<?php } ?>
+
+
+<!-- Loop con wp_query -->
+
+<?php
+$args = array(
+	'post_type' => $el_slug,
+	'order' => ASC,
+	'posts_per_page' => 30
+);
+$loop = new WP_Query( $args );
+if ( $loop->have_posts() ) {
+	while ( $loop->have_posts() ) : $loop->the_post();
+	?>
+
+<? endwhile; } wp_reset_query();?>
+
+<!-- Contador de posts -->
+
+<?
+$cuenta_posts = $loop_productos->post_count;
+$el_post = $loop_productos->current_post;
+
+if ( ($el_post + 1) != $cuenta_posts) {
+	echo "<td width='12'></td>";
+}
+?>
+
+<!-- Snippets de thumbnail -->
+
+<?php if ( has_post_thumbnail()) {
+	the_post_thumbnail('full');}
+?>
+
+<?php 
+
+$imgurl = get_the_post_thumbnail("");
+$imgurl = get_post_thumbnail_id("");
+
+echo $imgurl;
+
+
+$thumb_id = get_post_thumbnail_id();
+$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
+$thumb_url = $thumb_url_array[0];
+
+?>
+
+<!-- Custom fields -->
+		
+<?php
+$field = get_field("campo");
+if ( $field )
+	{
+		?>
+
+<?php } ?>
+
+<!-- Imagen responsive -->
+
+<figure id="fig1" role="group" aria-labelledby="caption">
+	<picture>
+		<source srcset="<?php ruta_imagenes(); ?>extralarge.jpg" media="(min-width: 1000px)">
+		<source srcset="<?php ruta_imagenes(); ?>large.jpg" media="(min-width: 800px)">
+		<img srcset="<?php ruta_imagenes(); ?>medium.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+	</picture>
+	<figcaption id="caption"></figcaption>
+</figure>
+
+<!-- Centrado vertical y horizontal -->
+
+<div style="display:table-cell;vertical-align:middle;">
+  <div style="margin-left:auto;margin-right:auto;"></div>
+</div>
+
+<!--  -->
+
+

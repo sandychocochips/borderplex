@@ -1,0 +1,328 @@
+<?php
+
+// ¿Prohibir el auto update?
+define( 'WP_AUTO_UPDATE_CORE', false );
+
+
+// ¿Clases del post?
+function tema_post_classes( $classes ) {
+	if ( ! post_password_required() && ! is_attachment() && has_post_thumbnail() ) {
+		$classes[] = 'has-post-thumbnail';
+	}
+	return $classes;
+}
+add_filter( 'post_class', 'tema_post_classes' );
+
+// Personalizar el menu
+function remove_dashboard_widgets(){
+	global$wp_meta_boxes;
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
+}
+add_action('wp_dashboard_setup', 'remove_dashboard_widgets');
+
+// ¿Remover submenús?
+function remove_submenus() {
+	global $submenu;
+	unset($submenu['index.php'][10]);
+}
+add_action('admin_menu', 'remove_submenus');
+
+// ¿Actualizar core?
+add_filter( 'pre_site_transient_update_core', create_function( '$a', "return null;" ) );
+
+// ¿Editar Right Now del dashboard?
+function wph_right_now_content_table_end() {
+	$args = array(
+		'public' => true ,
+		'_builtin' => false
+	);
+	$output = 'object';
+	$operator = 'and';
+	$post_types = get_post_types( $args , $output , $operator );
+	foreach( $post_types as $post_type ) {
+		$num_posts = wp_count_posts( $post_type->name );
+		$num = number_format_i18n( $num_posts->publish );
+		$text = _n( $post_type->labels->singular_name, $post_type->labels->name , intval( $num_posts->publish ) );
+		if ( current_user_can( 'edit_posts' ) ) {
+			$num = "<a href='edit.php?post_type=$post_type->name'>$num</a>";
+			$text = "<a href='edit.php?post_type=$post_type->name'>$text</a>";
+		}
+		echo '<tr><td class="first b b-' . $post_type->name . '">' . $num . '</td>';
+		echo '<td class="t ' . $post_type->name . '">' . $text . '</td></tr>';
+	}
+	$taxonomies = get_taxonomies( $args , $output , $operator );
+	foreach( $taxonomies as $taxonomy ) {
+		$num_terms  = wp_count_terms( $taxonomy->name );
+		$num = number_format_i18n( $num_terms );
+		$text = _n( $taxonomy->labels->singular_name, $taxonomy->labels->name , intval( $num_terms ));
+		if ( current_user_can( 'manage_categories' ) ) {
+			$num = "<a href='edit-tags.php?taxonomy=$taxonomy->name'>$num</a>";
+			$text = "<a href='edit-tags.php?taxonomy=$taxonomy->name'>$text</a>";
+		}
+		echo '<tr><td class="first b b-' . $taxonomy->name . '">' . $num . '</td>';
+		echo '<td class="t ' . $taxonomy->name . '">' . $text . '</td></tr>';
+	}
+}
+add_action( 'right_now_content_table_end' , 'wph_right_now_content_table_end' );
+
+/**
+ * Taxonomías personalizables
+ */
+function add_custom_taxonomies() {
+	register_taxonomy('tematica', 'post', array(
+		// Hierarchical taxonomy (like categories)
+		'hierarchical' => true,
+		'labels' => array(
+			'name' => _x( 'Temas', 'taxonomy general name' ),
+			'singular_name' => _x( 'Tema', 'taxonomy singular name' ),
+			'search_items' =>  __( 'Buscar Temas' ),
+			'all_items' => __( 'Todos los temas' ),
+			'parent_item' => __( 'Tema superior' ),
+			'parent_item_colon' => __( 'Tema superior:' ),
+			'edit_item' => __( 'Editar Tema' ),
+			'update_item' => __( 'Actualizar Tema' ),
+			'add_new_item' => __( 'Agregar nuevo Tema' ),
+			'new_item_name' => __( 'Nombre de nuevo Tema' ),
+			'menu_name' => __( 'Temas' ),
+		),
+		'rewrite' => array(
+			'slug' => 'tematicas',
+			'with_front' => false, // Don't display the category base before "/tema/"
+			'hierarchical' => true // This will allow URL's like "/tema/boston/cambridge/"
+		),
+	));
+}
+add_action( 'init', 'add_custom_taxonomies', 0 );
+
+// CPT
+function cpt_tema() {
+	register_post_type('galeria', array(
+		'label' => 'Galerías',
+		'description' => '',
+		'menu_icon' => 'dashicons-palmtree',
+		'public' => true,
+		'show_ui' => true,
+		'show_in_menu' => true,
+		'capability_type' => 'post',
+		'map_meta_cap' => true,
+		'hierarchical' => true,
+		'rewrite' => array('slug' => 'galeria', 'with_front' => true),
+		'query_var' => true,
+		'menu_position' => 8, /* */ 
+		'has_archive' => true,
+		'supports' => array('title','thumbnail'),
+		'labels' => array (
+			'name' => 'Galería',
+			'singular_name' => 'Galería',
+			'menu_name' => 'Galería',
+			'add_new' => 'Agregar nuevo',
+			'add_new_item' => 'Agregar nueva Galería',
+			'edit' => 'Editar',
+			'edit_item' => 'Editar Galería',
+			'new_item' => 'Nueva Galería',
+			'view' => 'Ver',
+			'view_item' => 'Ver Galería',
+			'search_items' => 'Buscar',
+			'not_found' => 'No se encontraron resultados',
+			'not_found_in_trash' => 'No se encontraron resultados en la basura',
+			'parent' => 'Galería superior',
+		)
+	) );
+}
+add_action('init', 'cpt_tema');
+
+// Ver custom post types en búsquedas y categorías
+add_filter('pre_get_posts', 'query_post_type');
+function query_post_type($query) {
+	if(is_category() || is_tag()) {
+	   $post_type = get_query_var('post_type');
+		if($post_type)
+			$post_type = $post_type;
+		else
+			$post_type = array('nav_menu_item','post','cpt', 'carrusel'); // replace cpt to your custom post type
+			$query->set('post_type',$post_type);
+			return $query;
+   }
+}
+
+// Extensión personalizada de excerpt
+function custom_excerpt_length($length) {
+	return 20;
+}
+add_filter('excerpt_length', 'custom_excerpt_length');
+
+// No aparezca el update
+if (!current_user_can('edit_users')) {
+	add_action('init', create_function('$a', "remove_action('init', 'wp_version_check');"), 2);
+	add_filter('pre_option_update_core', create_function('$a', "return null;"));
+}
+
+// Obtener el Slug
+function the_slug() {
+	$post_data = get_post($post->ID, ARRAY_A);
+	$slug = $post_data['post_name'];
+	return $slug;
+}
+
+// Obtener el Slug del parent
+function the_parent_slug() {
+  global $post;
+  if($post->post_parent == 0) return '';
+  $post_data = get_post($post->post_parent);
+  return $post_data->post_name;
+}
+
+
+//Función para subir archivos
+function insert_attachment( $file_handler, $post_id, $settpdf='false' ) {
+	// check to make sure its a successful upload
+	if ( $_FILES[$file_handler]['error'] !== UPLOAD_ERR_OK ) __return_false();
+
+	require_once( ABSPATH . 'wp-admin' . '/includes/image.php' );
+	require_once( ABSPATH . 'wp-admin' . '/includes/file.php' );
+	require_once( ABSPATH . 'wp-admin' . '/includes/media.php' );
+
+	$attach_id = media_handle_upload( $file_handler, $post_id );
+
+	if ( $settpdf ) update_post_meta( $post_id,'_pdf_id', $attach_id );
+
+	return $attach_id;
+}
+
+// Insertar Breadcrumb    
+function the_breadcrumb() {
+    global $post;
+    echo '<ul id="breadcrumbs">';
+    if (!is_home()) {
+        echo '<li><a href="';
+        echo get_option('home');
+        echo '">';
+        echo 'Bal-ondeo';
+        echo '</a></li><li> <span class="asim-caret-right"></span> </li>';
+        if (is_category() || is_single()) {
+            echo '<li>';
+            the_category(' </li><li class="separator"> <span class="asim-caret-right"></span> </li><li> ');
+            if (is_single()) {
+                echo '</li><li class="separator"> <span class="asim-caret-right"></span> </li><li>';
+                the_title();
+                echo '</li>';
+            }
+        } elseif (is_page()) {
+            if($post->post_parent){
+                $anc = get_post_ancestors( $post->ID );
+                $title = get_the_title();
+                foreach ( $anc as $ancestor ) {
+                    $output = '<li><a href="'.get_permalink($ancestor).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></li> <li class="separator"><span class="asim-caret-right"></span></li>';
+                }
+                echo $output;
+                echo $title;
+            } else {
+                echo '<li>'.get_the_title().'</li>';
+            }
+        }
+    }
+    elseif (is_tag()) {single_tag_title();}
+    elseif (isset($_GET['paged']) && !empty($_GET['paged'])) {echo "<li>Archivo Bal-ondeo"; echo'</li>';}
+    elseif (is_search()) {echo"<li>Resultados de búsqueda :"; echo'</li>';}
+    echo '</ul>';
+}
+
+// Shortcode
+add_shortcode('galeria','la_galeria');
+function la_galeria($atts) {
+   extract(shortcode_atts(array(
+      "galeria_slug" => ''
+   ), $atts));
+   
+   // Reset and setup variables
+   $output = '';
+   $images = '';
+	$imagen_url = '';
+   
+   $args = array(
+		'post_type' => 'galeria',
+		'pagename' => $galeria_slug
+	);
+	$loop = new WP_Query( $args );
+	if ( $loop->have_posts() ) {
+	   while ( $loop->have_posts() ) : $loop->the_post();
+
+	      $images = get_field('galeria', $post->ID);
+			if( $images ):
+				$output .= "<div class='carrusel'><ul class='js-carrusel'>";
+					foreach( $images as $image ):
+						$imagen_url_full = $image['sizes']['large'];
+						$imagen_url_med = $image['sizes']['medium'];
+						$alt = $image['alt'];
+						$output .= "<li><a href='$imagen_url_full' class='js-lightbox'><img src='$imagen_url_med' alt='$alt' ></a></li>";
+					endforeach;
+				$output .= "</ul></div>";
+			endif;
+	          
+	   endwhile;
+	} else {
+      $output .= "nothing found.";
+   }
+   wp_reset_query();
+   return $output;
+}
+
+// Paginación
+function pagination($pages = '', $range = 4)
+{  
+     $showitems = ($range * 2)+1;  
+
+     global $paged;
+     if(empty($paged)) $paged = 1;
+
+     if($pages == '')
+     {
+         global $wp_query;
+         $pages = $wp_query->max_num_pages;
+         if(!$pages)
+         {
+             $pages = 1;
+         }
+     }   
+
+     if(1 != $pages)
+     {
+         echo "<div class=\"paginacion\"><span>Página ".$paged." de ".$pages." - </span>";
+         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>&laquo; Primer</a>";
+         if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>&lsaquo; Siguiente</a>";
+
+         for ($i=1; $i <= $pages; $i++)
+         {
+             if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
+             {
+                 echo ($paged == $i)? "<span class=\"actual\">".$i."</span>":"<a href='".get_pagenum_link($i)."' class=\"desactivada\">".$i."</a>";
+             }
+         }
+
+         if ($paged < $pages && $showitems < $pages) echo "<a href=\"".get_pagenum_link($paged + 1)."\">Siguiente &rsaquo;</a>";  
+         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>Última &raquo;</a>";
+         echo "</div>\n";
+     }
+}
+
+// Páginas de Configuración para Options de ACF
+add_filter('acf/options_page/settings', 'my_options_page_settings');
+function my_options_page_settings ( $options )
+{
+	$options['title'] = __('Configuración');
+	$options['pages'] = array(
+		__('Página Principal'),
+		__('Servicios'),
+		__('Equipo'),
+		__('Pie de Página')
+	);
+	
+	return $options;
+}
+
+
+

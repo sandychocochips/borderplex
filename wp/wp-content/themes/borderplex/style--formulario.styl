@@ -1,0 +1,228 @@
+// input[type="submit"]
+// input[type="submit"], textarea
+// input[type="email"], input[type="text"]
+
+input[type="text"]
+input[type="email"]
+input[type="search"]
+input[type="password"]
+	-webkit-appearance: caret;
+	-moz-appearance: caret; /* mobile firefox too! */
+
+
+.contactanos
+	background #F0F0F0
+	font-size 0
+	padding-bottom 3rem
+	margin-bottom 5rem
+	::-webkit-input-placeholder
+		color rgba(162,89,14,0.4) !important
+		italic()
+	:-moz-placeholder
+		color rgba(162,89,14,0.4) !important
+		italic()
+	::-moz-placeholder
+		color rgba(162,89,14,0.4) !important
+		italic()
+	:-ms-input-placeholder
+		color rgba(162,89,14,0.4) !important
+		italic()
+	input:-moz-placeholder,
+	textarea:-moz-placeholder
+		color rgba(162,89,14,0.4) !important
+		italic()
+	h2
+		color casiBlanco
+	input[type='email'],
+	input[type='text'],
+	textarea
+		border none
+		bg veige
+		box()
+		color cafe
+		pad 0.5rem
+		round 0.5rem
+		vertical-align middle
+		width 100%
+	input[type='button'],
+	input[type='submit']
+		box()
+		block()
+		font-size 1.3rem
+		float right
+		margin-top 2rem
+		padding 0.5rem 0
+		sombra rgba(0,0,0,0.5) 0px 1px 2px
+		round 0.5em
+	input[type='button']
+		margin-right 2rem
+		min-width 200px
+		opacidad 0
+		width 20%
+		transition all 0.5s ease-in-out
+		-webkit-transition all 0.5s ease-in-out
+		&.mostrar
+			opacidad 1
+	input[type='submit']
+		min-width 300px
+		sombra inset rgb(120, 177, 83) 0 0 20px
+		width 55%
+	label
+		display block !important
+		box()
+		color beige
+		float left
+		min-width 30%
+		margin-right 1rem
+		margin-top 0.6rem
+		vertical-align middle
+		span
+			display inline-block
+			margin-right 0.5rem
+	textarea
+		min-height 4rem
+	#formulario
+		block()
+		box()
+		margin 0 auto
+		width 95%
+		width calc( 100% - 6rem )
+		.accion
+			font-size 1rem
+			float right
+			margin-left 1rem
+			span
+				font-size 1.2rem
+	.accion
+		color azulOscuro
+		box()
+		&:hover
+			color casiBlanco
+	.bloques
+		bg azulOscuro
+		alineados top
+		box()
+		font-size 1rem
+		padding 2rem 0
+		&:nth-of-type(1)
+			margin-right 5%
+			padding-left 5%
+			width 35%
+		&:nth-of-type(2)
+			padding-right 5%
+			width 55%
+	.contact-correo,
+	.contact-telefono
+		padding-left 2.5rem !important
+	.datos
+		block()
+		talign center
+		width 100%
+		a
+			block()
+			margin 1rem auto
+			vertical-align middle
+			width 90%
+			width calc( 100% - 4rem )
+		p
+			color casiBlanco
+			centrado 55%
+			inter 1.5em
+			min-width 200px
+	.error
+		bg amarilloBlanco !important
+		border 2px solid rojo !important
+		color rojo !important
+	.correcto
+		bg verdeBlanco !important
+		border 2px solid verdeOscuro !important
+		color verdeOscuro !important
+	.inputs,
+	.opcionesContacto
+		display block
+		overflow hidden
+	.inputs span,
+	.contact-correo + span,
+	.contact-telefono + span
+		block()
+		color amarillo
+		font-size 0.8rem
+		italic()
+		opacidad 0
+		margin-top 0.4rem
+		transition all 0.2s ease-in-out
+		-webkit-transition all 0.2s ease-in-out
+		&.retro
+			opacidad 1
+	.input-opcion,
+	.tambien
+		hide()
+	.input-opcion
+		relative()
+		&:nth-of-type(2)
+			margin-top 1rem
+		.yana-reademail,
+		.yana-phone
+			absolute()
+			color cafe
+			left 0.5rem
+			font-size 1.3rem
+			top 0.3rem
+			z-index 1
+	.instrucciones
+		color casiBlanco
+		span
+			block()
+			italic()
+			font-size 0.85rem
+			opacidad 0.8
+	.linea
+		block()
+		margin-bottom 1rem
+		width 100%
+		&:last-of-type
+			margin-bottom 0
+	.mensaje
+		box()
+		height 0
+		overflow hidden
+		opacidad 0
+		padding 0 0
+		talign center
+		width 100%
+		transition all 0.3s ease-in-out
+		-webkit-transition all 0.3s ease-in-out
+		&.faltante,
+		&.exito,
+		&.enviando
+			height auto
+			padding 0.5rem 0
+			opacidad 1
+			round 0.5rem
+		&.faltante,
+		&.exito
+			sombra rgba(255,255,255,0.5) 0 0 4px
+		&.faltante
+			bg amarilloBlanco !important
+			border 2px solid rojo
+			color rojo
+		&.enviando
+			color casiBlanco
+			.loading
+				bg casiBlanco
+				display inline-block
+				height 1rem
+				margin-right 1rem
+				opacidad 0.7
+				width 1rem
+				-webkit-animation: rotateplane 1.2s infinite ease-in-out;
+				animation: rotateplane 1.2s infinite ease-in-out;
+		&.exito
+			bg verdeBlanco !important
+			border 1px solid verdeOscuro !important
+			color verdeOscuro !important
+		p
+			margin 0
+	.tambien
+		color veige
+		margin-top 1rem

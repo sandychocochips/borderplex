@@ -1,0 +1,97 @@
+// Probar este generate-grid()
+generate-grid(increment, start, end)
+	total = start 
+	for n, x in 0..((end - start) / increment)
+		.column-{x+1}
+			width total
+		total = total + increment
+
+
+/* Impresión */
+@media print
+	img
+		max-width 100% !important
+	p, h2, h3
+		orphans: 3;
+		widows: 3;
+
+/*
+
+
+body: 100%, header: 80%, ¿hay alguna manera de calcular para que algo DENTRO del header mida siempre 50% del 100% del body?
+width : ( 50% / 80% ) * 100%
+
+
+Offset an element vertically by its *width*:
+transform: rotate(90deg) translateX(100%) rotate(-90deg);
+
+Something to remember when working with Flexbox:
+::before and ::after elements count as children and are 1st class flex-items
+
+
+:required & :optional
+
+input:required ~ .msg:after {
+  content: '*';
+  color: red;
+}
+
+input:optional ~ .msg:after {
+  content: '(optional)';
+}
+
+input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
+	-webkit-appearance: caret;
+	-moz-appearance: caret; /* mobile firefox too! */
+}
+
+:valid & :invalid
+
+input[type=email]:invalid {
+  outline: red solid 1px;
+}
+ 
+input[type=email]:valid {
+  outline: lightgreen solid 1px;
+}
+
+input::-moz-focus-inner { 
+    border: 0; 
+    padding: 0; 
+    margin-top:-2px; 
+    margin-bottom: -2px; 
+}
+*/
+
+
+No encuentro la manera de en un contenedor con "space between" hacer que el último se venga al flex-start.
+.container::after {
+	content:'';
+	flex-grow: 2;
+}
+O
+.item:last-child:nth-child(3n-1)
+{
+	margin-left: .5%;
+	margin-right: auto;
+}
+O
+margin-right: auto; En el :last-child
+
+/* Ipod */
+@media screen and (max-width : 480px)
+
+/* Móbiles */
+@media screen and (max-width: 767px)
+ 
+/* Monitores chicos, iPad */
+@media screen and (min-width: 768px) and (max-width: 1024px)
+
+/* Monitores grandes */
+@media screen and (min-width: 1025px)
+
+/* Monitores enormes */
+@media screen and (min-width : 1680px)
+
+/* iPhone4 */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5)

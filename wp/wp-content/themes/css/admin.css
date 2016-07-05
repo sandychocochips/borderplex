@@ -1,0 +1,9 @@
+.wp-admin .comment pre {
+  background: #ffc0cb; /* they forgot the language! */
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+.wp-admin .comment pre[class] {
+  background: #fff; /* language (likely) there */
+}
