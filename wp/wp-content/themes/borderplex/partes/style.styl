@@ -7,26 +7,37 @@
 		Version: 1.0
 		*/
 }
-
 /* <---------- Valores Stylus ----------> */
 @import "valoresDefault.styl"
-
 @import "style--fonts.styl"
-
 @import "style--reset.styl"
 
+@import "jquery.bxslider.styl"
 
 // el__color = #474646
 // color__fondo = #f3f3f3
-// color__resaltado = #d61159
+color__resaltado = #4874B9
 // f__familia = 'Lato', sans-serif;
 // f__uno = 17px
 // casi__blanco = #EFEFEF
 // casi__negro = #474646
 // max_width = 1236px
 // med_query = 640px
-
 /*generales*/
+
+::-moz-selection
+	background casi__negro
+	color #fff
+	text-shadow none
+
+::selection
+	background casi__negro
+	color #fff
+	text-shadow none
+
+body
+html
+	font-size: 17px
 
 section
 	margin: 0
@@ -35,78 +46,144 @@ section
 header
 	height: auto
 	width: 100%
-header figure
-	display: inline-block
-	margin: 10px 0 10px 10px
-	width: 75%
+	figure
+		margin: 20px 0
+		width: 75%
+
 .header_right
+	align-items(center)
 	background: #F1F1F1
 	color: #000
+	flex()
 	font-size: .7em
-	height: 20px
-	height: 37px
+	// height: 37px
+	justify-content(space-between)
 	margin: 0
 	padding: 5px 5px 0 0
 	position: absolute
 	right: 0
 	top: 0
-	width: 450px
-.header_right ul
-	display: inline-block
-.header_right ul li
-	display: inline-block
-.search
-	display: inline-block
-.social_media
-	margin: 0
-.social_media a
-	display: inline-block
-nav
-	background: #4874B9
-	height: 50px
-	color: #fff
-	margin: 0 auto
-nav ul
-	width: 90%
-	margin: 0 auto
-	padding: 13px 0 0 0
-nav ul li
-	display: inline-block
-	margin: 0 6%
-nav ul li:last-child
-	margin: 0 0 0 3%
-nav ul li:first-child
-	margin: 0 3% 0 0
+	ul
+		flex()
+		padding-left: 0
+		li
+			list-style: none
+			flex()
+			align-items: center
+			margin-left: 1rem
+			&.menu-item-12
+			&.menu-item-13
+			&.menu-item-14
+				&:before
+					content: ''
+					height: 16px
+					width: 16px
+					margin-right: 0.5rem
+					display inline-block
+			&.menu-item-12
+				&:before
+					bg url(images/icon--subscribe.png)
+			&.menu-item-13
+				&:before
+					bg url(images/icon--investors.png)
+			&.menu-item-14
+				&:before
+					bg url(images/icon--mediaKit.png)
+	.search
+		margin-left 1rem
+		fieldset
+			border none
+			padding 0
+			flex()
+			align-items(center)
+		input[type="text"]
+			bg none
+			border: none
+			margin-left 0.4rem
+			uppercase()
+
+	.social_media
+		margin: 0
+		absolute()
+		bottom -2.5rem
+		right: 2rem
+		a
+			display: inline-block
+			margin-left 0.5rem
+
 .breadcrumb
 	background: #224294
-	height: 30px
+	padding: 0.3rem 0 0.5rem
+	height: 24px
 	color: #fff
 	margin: 0 auto
-.a_breadcrum
-	width: 90%
-	margin: 0 auto
-	padding: 4px 0 0 0
+	.wrap
+		align-items(center)
+		flex()
+		justify-content(space-between)
+	.a_breadcrum
+		flex_grow(1)
+		margin: 0 auto
+		padding: 4px 0 0 0
+
+.breadcrumb--list
+	flex()
+	margin 0
+	padding: 0
+	li
+		list-style: none
+		margin 0 0.2rem 0
+
+.block--gray
+	margin-bottom: 0.4rem
+
 h3
 	font-size: 2em
 p
 	font-size: 1.2em
+
 .slider
 	position: relative
-.slider figure img
-	width: 100%
-	overflow: hidden
+	figure
+		max-height: 460px
+		height: 460px
+		overflow hidden
+		relative()
+		img
+			absolute()
+			left 50%
+			top 50%
+			transformar( translate(-50%, -50%) )
+			width: 100%
+			height: auto
+
+.home--slider
+	.bx-wrapper
+		margin-bottom 0
+		.bx-pager
+			bottom 30px
+			&.bx-default-pager a
+				round 50%
+				bg blanco
+				height: 18px
+				width: 18px
+			&.bx-default-pager a:hover
+			&.bx-default-pager a.active
+				bg #fbb716
+
 .slider_caption
 	background: #4874B9
-	position: absolute
-	width: 435px
-	height: 200px
 	color: #fff
-	right: 20px
-	top: 160px
+	//height: 200px
 	padding: 20px
-.slider_caption p
-	font-size: 1.3em
-	margin: 0 0 20px 0
+	position: absolute
+	right: 20px
+	top: 30%
+	width: 435px
+	p
+		font-size: 1.3em
+		margin: 0 0 20px 0
+
 .btn
 	width: 185px
 	text-transform: uppercase
@@ -151,47 +228,73 @@ p
 	margin: 0
 	display: inline-block
 	vertical-align: top
-.col_2 h3
-	margin: 80px 15% 0 15%
-.col_2 p
-	margin: 20px 15%
-	font-style: italic
-	color: #565656
-	line-height: 1.5em
+	padding: 70px 0
+	h3
+		margin: 10px 15% 0 15%
+	p
+	ol
+	ul
+		margin: 20px 15%
+		padding: 0
+	a
+	li
+	p
+		font-style: italic
+		color: #565656
+		line-height: 1.5em
 .map
 	width: 100%
+
 .services_home
 	width: 47%
 	margin: 80px auto
-.services_home figure
-	margin: 0 0 -40px 0
+	relative()
+	figure
+		margin: 0 0 -40px 0
+	.btn
+		absolute()
+		right: 0
+
 .gray
-	background: #F2F2F2
+	background: #ebebeb
 .news_box
 	border-right: 1px solid #5F5F5F
 .news
 	margin: 40px 10% 60px 10%
-.news p
-	margin: 0 0 20px 0!important
-	font-style: normal!important
-	line-height: 1.2em !important
-	display: inline-block
-	vertical-align: top
-.news p.title
-	font-weight: bold
-	font-style: normal!important
-	color: #000!important
-	margin: 10px 0 5px 0!important
-	display: inline-block
-	vertical-align: top
+	p
+		margin: 0 0 20px 0!important
+		font-style: normal!important
+		line-height: 1.2em !important
+		display: inline-block
+		vertical-align: top
+		&.title
+			font-weight: bold
+			font-style: normal !important
+			color: #000 !important
+			margin: 10px 0 5px 0 !important
+			display: inline-block
+			vertical-align: top
+	&.news__highlights
+		flex()
+		justify-content(space-between)
+	.news--text
+		width: unquote( calc( 100% - 160px ) )
+
 figure.highlights
 	width: 143px
 	height: 143px
-	background: #000
-	display: inline-block
+	display: block
 	vertical-align: top
+
 footer
 	display: block
+	p
+		display: inline-block
+		vertical-align: top
+		margin: 20px 0 0 60px
+		color: #fff
+		font-style: normal
+		font-size: 1em
 .blue_bar
 	background: #224294
 	width: 100%
@@ -206,22 +309,15 @@ footer
 	display: inline-block
 	vertical-align: top
 	margin: 0 0 0 40px
-footer p
-	display: inline-block
-	vertical-align: top
-	margin: 20px 0 0 60px
-	color: #fff
-	font-style: normal
-	font-size: 1em
-footer a
-	width: 30px
-	background: #fff
-	height: 30px
-	display: inline-block
-	vertical-align: top
-	margin: 15px 0 0 30px
-	color: #00963B
-	border-radius: 49%
+	a
+		width: 30px
+		background: #fff
+		height: 30px
+		display: inline-block
+		vertical-align: top
+		margin: 15px 0 0 30px
+		color: #00963B
+		border-radius: 49%
 .twitter_footer img
 	margin: 8px 0 0 8px
 .facebook_footer img
@@ -234,37 +330,43 @@ footer figure img
 .image_qua
 	margin: 60px auto
 	width: 90%
+.img_bg
+	background-repeat: no-repeat
+	background-size: cover
+	background-color: #4873b8
+	//height: 600px
+	width: auto
+	a
+	li
+	p
+		font-style: normal
+		color: #fff!important
 .white
 	color: #fff!important
-.img_bg
-	background: url(../images/back_quality.png) no-repeat
-	background-size: cover
-	height: 600px
-	width: auto
-.img_bg p
-	font-style: normal
 .p_sp
 	margin: 130px 10% 0 10%!important
+
 .qua_box
 	width: 80%
 	margin: 0 auto
-	height: 250px
+	min-height: 250px
 	padding: 0 0 40px 0
-.qua_box figure
-	background: #eee
-	margin: 30px 20px 0 0
-	width: 220px
-	height: 220px
-	display: inline-block
-	vertical-align: top
-.qua_box h4
-	font-size: 1.2em
-	display: inline-block
-	vertical-align: top
-.qua_box p
-	display: inline-block
-	vertical-align: top
-	margin: 15px 0 0 0
+	figure
+		background: #eee
+		margin: 30px 20px 0 0
+		max-width: 220px
+		max-height: 220px
+		display: inline-block
+		vertical-align: top
+	h4
+		font-size: 1.2em
+		display: inline-block
+		vertical-align: top
+	p
+		display: inline-block
+		vertical-align: top
+		margin: 15px 0 0 0
+
 .q_info
 	display: inline-block
 	vertical-align: top
@@ -287,6 +389,87 @@ footer figure img
 	padding: 10px 0
 .col_1 table tbody tr
 	margin: 0 0 10px 0
+.tabla
+	width: 100%
+	margin: 30px auto
+.tabla_hd
+	display: inline-block
+	vertical-align: top
+	width: 100%
+	border-top: 1px solid #000
+	border-bottom: 1px solid #000
+	padding: 10px 0
+.tabla_cont
+	display: inline-block
+	vertical-align: top
+	width: 100%
+.hd_tr
+	display: inline-block
+	vertical-align: top
+	font-weight: bold
+	padding: 0 5px
+.cont_tr
+	display: inline-block
+	vertical-align: top
+	border-right: 1px solid #000
+	padding: 10px 5px
+.tr1
+	width: 18%
+.tr2
+	width: 20%
+.cont_tr:last-child
+	border-right: 0
+
+
+.acordeon
+	&:hover
+		.acordeon--texto
+			max-height: 300vh
+
+.acordeon--texto
+	max-height: 0
+	overflow: hidden
+	transicion( 0.3s all ease )
+
+.acordeon_gray
+	cursor pointer
+	padding: 0.4rem 0
+	margin-bottom: 0.4rem
+	h3
+		margin: 0 30px !important;
+		flex_grow(1)
+	.acordeon_gray--btn
+		bg #4873b8
+		cursor pointer
+		padding 0.6rem 1.5rem
+		img
+			block()
+			transformar(rotate(90deg))
+	.wrap
+		flex()
+		justify-content(space-between)
+		align-items(center)
+
+@css{
+
+.acordeon p{font-style: normal;}
+.acordeon h3{margin: 20px 15%;}
+.acordeon_p{margin: 70px 15% 0 15%!important;}
+
+.places{width: 250px; height: 230px; margin: 30px auto; overflow: hidden;}
+.places figure{margin: 0 0 -110px 0;}
+
+.col_3{width: 32%; margin:0; display: inline-block; vertical-align: top;}
+
+}
+
+.wrap
+	width: 95%
+	max-width: 1100px
+	margin 0 auto
+	relative()
+
+@import "style--nav.styl"
 
 @media (max-width: 1130px) and (min-width: 740px)
 	nav ul li
@@ -323,6 +506,8 @@ footer figure img
 		margin: 8px 0 0 8px
 	.facebook_footer img
 		margin: 8px 0 0 12px
+	.tr1
+		width: 17%
 
 @media (max-width: 740px) and (min-width: 150px)
 	header
@@ -366,14 +551,27 @@ footer figure img
 		font-size: .8em
 	.btn_t a
 		margin: 8% 0  0 12%
+	.green_b
+		width: 100%
+		margin: 0
+		height: 20px
+		background: #2CB783
 	.col_2
 		width: 100%
 	.col_2 h3
 		margin: 10px 10% 0 10%
 		font-size: 1.4em
 	.col_2 p
-		font-size: 1em
+		font-size: .9em
 		line-height: 1.2em
+		margin: 20px 10%
+	.col_1 h3
+		margin: 10px 10% 0 10%
+		font-size: 1.4em
+	.col_1 p
+		font-size: .9em
+		line-height: 1.2em
+		margin: 20px 10%
 	.services_home
 		width: 80%
 		margin: 15px auto 15px auto
@@ -414,10 +612,110 @@ footer figure img
 	footer figure img
 		width: 80%
 		margin: 0 auto
+	.image_qua
+		width: 100%
+		margin: 0
+	.image_qua img
+		width: 100%
+	.img_bg
+		background: url(../images/back_quality_rp.png) no-repeat
+		background-size: cover
+		// height: 520px
+		width: auto
+	.img_bg p
+		font-style: normal
+	.p_sp
+		margin: 0 10%!important
+	.qua_box
+		width: 90%
+		margin: 0 auto
+		height: auto
+		padding: 15px 0
+	.qua_box figure
+		background: #eee
+		margin: 0
+		width: 100%
+		height: 100px
+		display: inline-block
+		vertical-align: top
+	.qua_box h4
+		font-size: 1em
+		display: inline-block
+		vertical-align: top
+	.qua_box p
+		display: inline-block
+		vertical-align: top
+		margin: 10px 0 0 0
+		font-size: .9em
+		width: 100%
+	.q_info
+		display: inline-block
+		vertical-align: top
+		margin: 10px 0
+		width: 100%
+	.tabla
+		width: 100%
+		margin: 30px auto
+		font-size: .9em
+		height: 280px
+		overflow: hidden
+	.tabla_hd
+		display: inline-block
+		vertical-align: top
+		width: 100%
+		border-top: 1px solid #000
+		border-bottom: 1px solid #000
+		padding: 5px 0
+		height: 15px
+		overflow: scroll
+	.tabla_cont
+		display: inline-block
+		vertical-align: top
+		width: 100%
+		height: 40px
+	.hd_tr
+		display: inline-block
+		vertical-align: top
+		font-weight: bold
+		padding: 0 5px
+	.cont_tr
+		display: inline-block
+		vertical-align: top
+		border-right: 1px solid #000
+		padding: 10px 5px
+	.tr1
+		width: 150px
+	.tr2
+		width: 200px
+	.cont_tr:last-child
+		border-right: 0
+	.tabla_rsp
+		width: 1000px
+		overflow: scroll
+	.fix_tr
+		width: 115px
+
+	.col_3
+		display: inline-block
+		margin:0 auto
+		vertical-align: top
+		width: 100%
+  .acordeon_gray figure
+		width: 80px
+  .acordeon_gray h3
+		font-size: 1.4em
+  .acordeon p
+		font-style: normal
+  .acordeon h3
+		margin: 20px 15%
+  .acordeon_p
+		margin: 70px 15% 0 15%!important
+
+
 
 // @import "style--fomulario.styl"
-// @import "style--nav.styl"
 // @import "style--opcionales.styl"
+
 ._oculto
 	border 0
 	clip rect(0 0 0 0)

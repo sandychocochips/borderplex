@@ -1,0 +1,137 @@
+.nav--top .sub-menu {
+  bg: color__resaltado;
+  padding: 20px 0 10px;
+  z-index: 99;
+  width: 150%;
+}
+.nav--top .sub-menu a {
+  color: blanco;
+  padding: 0.5rem 0.9rem !important;
+}
+.nav--top .sub-menu li {
+  bg: azulReflex;
+  border-left: none !important;
+  border-right: none !important;
+  display: block !important;
+  text-align: left !important;
+  width: 100% !important;
+}
+.nav--top .sub-menu li:hover {
+  bg: rojo;
+}
+@media screen and (max-width: 650px) {
+  .nav--top {
+    color: #fff;
+    cursor: pointer;
+    height: 52.8px;
+    overflow: hidden;
+    position: absolute;
+    top: 1rem;
+    width: 20%;
+    z-index: 10;
+  }
+  .nav--top:after {
+    color: azulReflex;
+    content: "☰";
+    font-size: 2.5rem;
+    left: 5%;
+    line-height: 1em;
+    position: absolute;
+    text-align: left;
+    top: 10%;
+    height: 1em;
+    width: 1em;
+  }
+  .nav--top li {
+    bg: blanco;
+  }
+  .nav--top li:not(#menu-item-14),
+  .nav--top li:not(#menu-item-444) {
+    border-bottom: 1px solid #cccbcb;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #cccbcb;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  .nav--top li:not(#menu-item-14) a,
+  .nav--top li:not(#menu-item-444) a {
+    padding-left: 1rem;
+  }
+  .nav--top li a:after {
+    content: '';
+    bg: url("imgs/img_flecha.svg") no-repeat center center;
+    background-size: 100% auto;
+    height: 18px;
+    right: 1.2rem;
+    rotar: 0deg;
+    top: 50%;
+    transform-origin: center;
+    width: 18px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+  }
+  .nav--top .sub-menu {
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  .nav--top .sub-menu li {
+    bg: blanco;
+    padding: 0 0 0 0.5rem;
+    width: 100% !important;
+    display: inline-block !important;
+    vertical-align: top;
+  }
+  .nav--top .sub-menu li a {
+    color: #515151;
+    font-size: 0.85em;
+  }
+  .nav--top .sub-menu li a:hover {
+    color: blanco;
+  }
+  .nav--top .sub-menu li a:before {
+    content: '- ';
+  }
+  .nav--top .sub-menu li a:after {
+    height: 15px;
+    width: 15px;
+  }
+  .nav--top__list {
+    height: 80px;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 92.6px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .checkbox-hack__label {
+    cursor: pointer;
+    height: 105.6px;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 15%;
+    z-index: 100;
+  }
+}
+.checkbox__hack {
+  display: none;
+}
+.checkbox__hack:checked ~ .nav--top {
+  overflow: visible;
+  width: 100%;
+}
+.checkbox__hack:checked ~ .nav--top:after {
+  content: "x";
+}

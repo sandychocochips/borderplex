@@ -6,7 +6,7 @@
 /* Datos localhost */
 define('DB_NAME', 'borderplex');
 define('DB_USER', 'elmaguire');
-define('DB_PASSWORD', 'InRainbows');
+define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');

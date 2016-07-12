@@ -4885,6 +4885,64 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/acf-table-v4.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/acf-table-v4.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/acf-table-v5.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/acf-table-v5.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/acf-table.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/acf-table.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/css\/input.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/css\/input.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/js\/input-v4.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/js\/input-v4.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/js\/min\/input-v4-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/js\/input-v5.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/js\/input-v5.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/advanced-custom-fields-table-field\/js\/min\/input-v5-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp\/wp-content\/plugins\/advanced-custom-fields\/acf.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8927,6 +8985,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/scalable-vector-graphics-svg\/library\/class.svg-sanitizer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/scalable-vector-graphics-svg\/library\/class.svg-sanitizer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/scalable-vector-graphics-svg\/library\/data.svg-whitelist.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/scalable-vector-graphics-svg\/library\/data.svg-whitelist.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/scalable-vector-graphics-svg\/scalable-vector-graphics.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/scalable-vector-graphics-svg\/scalable-vector-graphics.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/simple-custom-post-order\/assets\/scporder.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -9091,6 +9176,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/compatibility\/bbpress\/class-wpml-bbpress-api.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/compatibility\/bbpress\/class-wpml-bbpress-api.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/compatibility\/bbpress\/class-wpml-bbpress-filters.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/compatibility\/bbpress\/class-wpml-bbpress-filters.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/compatibility\/wpseo\/class-wpml-wpseo-filters.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9235,11 +9338,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/menu-elements\/class-wpml-support-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/menu-elements\/class-wpml-support-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/menu-elements\/class-wpml-taxonomy-translation-screen-data.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/menu-elements\/class-wpml-taxonomy-translation-screen-data.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/menu-elements\/class-wpml-taxonomy-translation-ui.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/menu-elements\/class-wpml-taxonomy-translation-ui.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9294,6 +9415,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/post-translation\/class-wpml-pre-option-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/post-types\/class-wpml-post-types.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/post-types\/class-wpml-post-types.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9496,6 +9626,42 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/ui-elements\/class-wpml-ui-help-tab.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/ui-elements\/class-wpml-ui-help-tab.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/ui-elements\/class-wpml-ui-pagination.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/ui-elements\/class-wpml-ui-pagination.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/ui-elements\/class-wpml-ui-screen-options-factory.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/ui-elements\/class-wpml-ui-screen-options-factory.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/ui-elements\/class-wpml-ui-screen-options-pagination.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/ui-elements\/class-wpml-ui-screen-options-pagination.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/url-handling\/class-wpml-allowed-redirect-hosts.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9568,6 +9734,87 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-language-code.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-language-code.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language-switcher-hooks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language-switcher-hooks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language-switcher-resources.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language-switcher-resources.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language-switcher-ui.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language-switcher-ui.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language-switcher.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language-switcher.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-user-language.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-users-languages-dependencies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-users-languages-dependencies.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-users-languages.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/user-language\/class-wpml-users-languages.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/utilities\/class-wpml-ajax-response.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/utilities\/class-wpml-ajax-response.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/utilities\/class-wpml-cookie.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9613,6 +9860,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/utilities\/class-wpml-temporary-switch-admin-language.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/utilities\/class-wpml-temporary-switch-admin-language.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/utilities\/class-wpml-temporary-switch-language.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/utilities\/class-wpml-temporary-switch-language.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/utilities\/class-wpml-wp-cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9649,51 +9914,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail-language-switcher.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail-language-switcher.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail-languages-helper.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail-languages-helper.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail-recipients.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail-recipients.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail-wrapper.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail-wrapper.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/classes\/wpml-mail\/class-wpml-mail.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/docs\/theme-integration\/wpml-integration.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9708,6 +9928,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/autoload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/autoload_52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/autoload_52.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9748,11 +9977,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/autoload_real_52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/autoload_real_52.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/ClassLoader.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/ClassLoader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/ClassLoader52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/ClassLoader52.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9768,11 +10015,802 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/bootstrap.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/bootstrap.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/AglInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/AglInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/AimeosInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/AimeosInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/AnnotateCmsInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/AnnotateCmsInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/AsgardInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/AsgardInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/BaseInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/BaseInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/BitrixInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/BitrixInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/BonefishInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/BonefishInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/CakePHPInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/CakePHPInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ChefInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ChefInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ClanCatsFrameworkInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ClanCatsFrameworkInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/CodeIgniterInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/CodeIgniterInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/Concrete5Installer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/Concrete5Installer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/CraftInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/CraftInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/CroogoInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/CroogoInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/DokuWikiInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/DokuWikiInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/DolibarrInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/DolibarrInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/DrupalInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/DrupalInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ElggInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ElggInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/FuelInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/FuelInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/FuelphpInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/FuelphpInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/GravInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/GravInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/HuradInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/HuradInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ImageCMSInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ImageCMSInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/Installer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/Installer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/JoomlaInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/JoomlaInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/KirbyInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/KirbyInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/KodiCMSInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/KodiCMSInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/KohanaInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/KohanaInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/LaravelInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/LaravelInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/LithiumInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/LithiumInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MagentoInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MagentoInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MakoInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MakoInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MauticInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MauticInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MediaWikiInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MediaWikiInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MicroweberInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MicroweberInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MODULEWorkInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MODULEWorkInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MODXEvoInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MODXEvoInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MoodleInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/MoodleInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/OctoberInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/OctoberInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/OxidInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/OxidInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PhpBBInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PhpBBInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PimcoreInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PimcoreInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PiwikInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PiwikInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/Plugin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/Plugin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PPIInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PPIInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PrestashopInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PrestashopInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PuppetInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/PuppetInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/RedaxoInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/RedaxoInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/RoundcubeInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/RoundcubeInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ShopwareInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ShopwareInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/SilverStripeInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/SilverStripeInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/SMFInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/SMFInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/Symfony1Installer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/Symfony1Installer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/TheliaInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/TheliaInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/TuskInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/TuskInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/TYPO3CmsInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/TYPO3CmsInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/TYPO3FlowInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/TYPO3FlowInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/WHMCSInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/WHMCSInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/WolfCMSInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/WolfCMSInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/WordPressInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/WordPressInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ZendInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ZendInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ZikulaInstaller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/composer\/installers\/src\/Composer\/Installers\/ZikulaInstaller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/class-installer-dependencies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/class-installer-dependencies.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/class-installer-theme.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/class-installer-theme.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/installer-api.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/installer-api.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/installer-upgrader-skins.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/installer-upgrader-skins.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/installer.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/installer.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/translation-service-info.class.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/includes\/translation-service-info.class.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/installer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/installer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/loader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/loader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/css\/admin.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/css\/admin.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/complete.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 848,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/complete.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/complete.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/computer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 519,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/computer.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/computer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/globe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 899,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/globe.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/globe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/on.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/on.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/img\/on.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/admin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/admin.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/min\/admin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/iframeResizer.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/iframeResizer.min.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/min\/iframeResizer.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/installer_theme_install.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/installer_theme_install.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/res\/js\/min\/installer_theme_install-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/templates\/downloads-list-compact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/templates\/downloads-list-compact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/templates\/downloads-list.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/templates\/downloads-list.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/templates\/products-compact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/templates\/products-compact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/templates\/repository-listing.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/otgs\/installer\/templates\/repository-listing.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/wpml\/commons\/autoloader.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/wpml\/commons\/autoloader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/wpml\/commons\/src\/dependencies\/class-wpml-dependencies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/wpml\/commons\/src\/dependencies\/class-wpml-dependencies.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9794,6 +10832,54 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/AutoloadGenerator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/AutoloadGenerator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/ClassLoader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/ClassLoader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/Generator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/Generator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/embedded\/xrstf\/composer-php52\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/absolute-links\/absolute-links.class.php": {
 		"fileType": 8192,
@@ -9854,6 +10940,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/functions-network.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/functions-sanitation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/functions-sanitation.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9953,200 +11048,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/import-xml.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/class-installer-dependencies.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/class-installer-dependencies.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/class-installer-theme.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/class-installer-theme.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/installer-api.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/installer-api.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/installer-upgrader-skins.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/installer-upgrader-skins.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/installer.class.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/installer.class.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/translation-service-info.class.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/includes\/translation-service-info.class.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/installer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/installer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/loader.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/loader.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/css\/admin.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/css\/admin.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/complete.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 848,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/complete.png",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/complete.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/computer.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 519,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/computer.png",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/computer.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/globe.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 899,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/globe.png",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/globe.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/on.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 371,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/on.png",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/img\/on.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/admin.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/admin.js",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/min\/admin-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/iframeResizer.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/iframeResizer.min.js",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/min\/iframeResizer.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/installer_theme_install.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/installer_theme_install.js",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/res\/js\/min\/installer_theme_install-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/templates\/downloads-list-compact.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/templates\/downloads-list-compact.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/templates\/downloads-list.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/templates\/downloads-list.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/templates\/products-compact.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/templates\/products-compact.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/templates\/repository-listing.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/installer\/templates\/repository-listing.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -11004,15 +11905,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/wpml-config\/wpml-config-update.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/wpml-dependencies-check\/wpml-bundle-check.class.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/inc\/wpml-dependencies-check\/wpml-bundle-check.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -12877,15 +13769,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/menu\/taxonomy-translation.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/menu\/taxonomy-translation.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/menu\/term-taxonomy-menus\/taxonomy-menu.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13077,15 +13960,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/affiliate-info.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/affiliate-info.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/colorpicker.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -13095,29 +13969,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/colorpicker.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/colorpicker.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/content-translation.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/content-translation.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/content-translation.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/content-translation.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13140,29 +13996,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/language-selector-click.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/language-selector-click.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/language-selector.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/language-selector.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/language-selector.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/language-selector.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13176,15 +14014,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/languages.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/languages.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/menus-sync.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -13194,11 +14023,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/menus-sync.min.css": {
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/otgs-dialogs.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/menus-sync.min.css",
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/otgs-dialogs.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13221,29 +14050,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/overview.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/overview.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/post-edit.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/post-edit.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/post-edit.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/post-edit.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13266,29 +14077,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/taxonomy-translation.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/taxonomy-translation.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/theme-localization.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/theme-localization.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/theme-localization.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/theme-localization.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13311,15 +14104,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/translation-options.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/translation-options.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/translation-synchronization.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -13329,29 +14113,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/translation-synchronization.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/translation-synchronization.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/wp-nav-menus.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/wp-nav-menus.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/wp-nav-menus.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/wp-nav-menus.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -17261,12 +18027,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/templates.js": {
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/templates-compiled.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/templates.js",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/min\/templates-min.js",
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/templates-compiled.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/min\/templates-compiled-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -17278,6 +18044,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/util.js",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/min\/util-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/copy-all-popup-view.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/copy-all-popup-view.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/min\/copy-all-popup-view-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -17327,6 +18104,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/original-term-popup-view.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/original-term-popup-view.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/min\/original-term-popup-view-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/table-view.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -17344,6 +18132,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/taxonomy-view.js",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/min\/taxonomy-view-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/term-original-view.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/term-original-view.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/taxonomy-translation\/views\/min\/term-original-view-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -17448,12 +18247,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/wpml-mail.js": {
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/wpml-color-picker.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/wpml-mail.js",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/min\/wpml-mail-min.js",
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/wpml-color-picker.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/min\/wpml-color-picker-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -17465,6 +18264,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/wpml-simple-language-selector.js",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/min\/wpml-simple-language-selector-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/wpml-user-language.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/wpml-user-language.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/js\/min\/wpml-user-language-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -17501,22 +18311,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/_mixins.scss",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/_mixins.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/_otgs-icons.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/_otgs-icons.scss",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/_otgs-icons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -17620,38 +18414,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/jquery-ui\/_dialog.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/jquery-ui\/_dialog.scss",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/css\/_dialog.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/jquery-ui\/_style.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/jquery-ui\/_style.scss",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/css\/_style.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/language-selector-click.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -17709,6 +18471,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/menus-sync.scss",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/menus-sync.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/otgs-dialogs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/scss\/otgs-dialogs.scss",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/res\/css\/otgs-dialogs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -17890,6 +18668,213 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/sitepress.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/copy-all-popup.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/copy-all-popup.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/filter.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/filter.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/individual-label.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/individual-label.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/label-popup.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/label-popup.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/main.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/main.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/nav.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/nav.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/no-terms-found.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/no-terms-found.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/not-translated-label.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/not-translated-label.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/original-label-disabled.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/original-label-disabled.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/original-label.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/original-label.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/original-term-popup.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/original-term-popup.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/original-term.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/original-term.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/ref_sync_select.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/ref_sync_select.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/status-trans-select.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/status-trans-select.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/table.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/table.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/tabs.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/tabs.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/taxonomy-main-wrap.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/taxonomy-main-wrap.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-not-synced.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-not-synced.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-not-translated.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-not-translated.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-original-disabled.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-original-disabled.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-popup.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-popup.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-synced.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-synced.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-translated.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/sitepress-multilingual-cms\/templates\/taxonomy-translation\/term-translated.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -27687,6 +28672,182 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/autoload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/autoload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/autoload_52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/autoload_52.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_classmap.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_classmap.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_namespaces.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_namespaces.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_psr4.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_psr4.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_real.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_real.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_real_52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/autoload_real_52.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/ClassLoader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/ClassLoader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/ClassLoader52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/ClassLoader52.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/installed.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/installed.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/composer\/installed-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/wpml\/commons\/autoloader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/wpml\/commons\/autoloader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/wpml\/commons\/src\/dependencies\/class-wpml-dependencies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/wpml\/commons\/src\/dependencies\/class-wpml-dependencies.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/wpml\/commons\/src\/twig-extensions\/wpml-twig-wp-plugin-extension.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/wpml\/commons\/src\/twig-extensions\/wpml-twig-wp-plugin-extension.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/wpml\/commons\/src\/wpml-auto-loader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/wpml\/commons\/src\/wpml-auto-loader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/AutoloadGenerator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/AutoloadGenerator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/ClassLoader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/ClassLoader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/Generator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/Generator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/embedded\/xrstf\/composer-php52\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/inc\/cache.class.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -27755,15 +28916,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/inc\/widgets\/sidebar_navigation_widget.class.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/wpml-cms-nav\/inc\/wpml-dependencies-check\/wpml-bundle-check.class.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-cms-nav\/inc\/wpml-dependencies-check\/wpml-bundle-check.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -27953,6 +29105,182 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/autoload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/autoload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/autoload_52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/autoload_52.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_classmap.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_classmap.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_namespaces.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_namespaces.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_psr4.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_psr4.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_real.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_real.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_real_52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/autoload_real_52.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/ClassLoader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/ClassLoader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/ClassLoader52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/ClassLoader52.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/installed.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/installed.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/composer\/installed-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/wpml\/commons\/autoloader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/wpml\/commons\/autoloader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/wpml\/commons\/src\/dependencies\/class-wpml-dependencies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/wpml\/commons\/src\/dependencies\/class-wpml-dependencies.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/wpml\/commons\/src\/twig-extensions\/wpml-twig-wp-plugin-extension.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/wpml\/commons\/src\/twig-extensions\/wpml-twig-wp-plugin-extension.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/wpml\/commons\/src\/wpml-auto-loader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/wpml\/commons\/src\/wpml-auto-loader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/AutoloadGenerator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/AutoloadGenerator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/ClassLoader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/ClassLoader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/Generator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/Generator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/embedded\/xrstf\/composer-php52\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/inc\/constants.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -27967,15 +29295,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/inc\/sticky-links.class.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp\/wp-content\/plugins\/wpml-sticky-links\/inc\/wpml-dependencies-check\/wpml-bundle-check.class.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-sticky-links\/inc\/wpml-dependencies-check\/wpml-bundle-check.class.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -28212,6 +29531,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/classes\/filters\/class-wpml-st-blog-name-and-description-hooks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/classes\/filters\/class-wpml-st-blog-name-and-description-hooks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/wpml-string-translation\/classes\/filters\/class-wpml-st-label-translation.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -28320,6 +29648,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/classes\/upgrade\/class-wpml-st-upgrade-migrate-originals.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/classes\/upgrade\/class-wpml-st-upgrade-migrate-originals.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/classes\/upgrade\/class-wpml-st-upgrade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/classes\/upgrade\/class-wpml-st-upgrade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/wpml-string-translation\/classes\/wpml-tm\/class-wpml-st-tm-jobs.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -28334,6 +29680,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/autoload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/autoload_52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/autoload_52.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -28374,11 +29729,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/composer\/autoload_real_52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/composer\/autoload_real_52.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/composer\/ClassLoader.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/composer\/ClassLoader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/composer\/ClassLoader52.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/composer\/ClassLoader52.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -28403,6 +29776,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/wpml\/commons\/src\/dependencies\/class-wpml-dependencies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/wpml\/commons\/src\/dependencies\/class-wpml-dependencies.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/wpml\/commons\/src\/twig-extensions\/wpml-twig-wp-plugin-extension.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -28420,6 +29802,54 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/AutoloadGenerator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/AutoloadGenerator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/ClassLoader.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/ClassLoader.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/Generator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/lib\/xrstf\/Composer52\/Generator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/embedded\/xrstf\/composer-php52\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/wp\/wp-content\/plugins\/wpml-string-translation\/inc\/admin-texts\/wpml-admin-text-configuration.php": {
 		"fileType": 8192,
@@ -28729,15 +30159,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp\/wp-content\/plugins\/wpml-string-translation\/inc\/wpml-dependencies-check\/wpml-bundle-check.class.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/plugins\/wpml-string-translation\/inc\/wpml-dependencies-check\/wpml-bundle-check.class.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp\/wp-content\/plugins\/wpml-string-translation\/inc\/wpml-localization.class.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -28970,11 +30391,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/wp\/wp-content\/themes\/borderplex\/css\/style--reset.css": {
+	"\/wp\/wp-content\/themes\/borderplex\/css\/style--nav.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/css\/style--reset.css",
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/css\/style--nav.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -29048,6 +30469,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/controls.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2806,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/controls.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/controls.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp\/wp-content\/themes\/borderplex\/images\/home_alliance.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -29070,6 +30502,138 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--community.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3941,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--community.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--community.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--facebook__footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1538,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--facebook__footer.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--facebook__footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--facebook__header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1452,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--facebook__header.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--facebook__header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--infraestructure.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4428,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--infraestructure.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--infraestructure.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--investors.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1101,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--investors.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--investors.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--marketOverview.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3809,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--marketOverview.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--marketOverview.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--mediaKit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1032,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--mediaKit.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--mediaKit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--regionalOverview.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4924,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--regionalOverview.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--regionalOverview.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--search.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1186,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--search.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--search.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--subscribe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1096,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--subscribe.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--subscribe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--twitter__footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1683,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--twitter__footer.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--twitter__footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/icon--twitter__header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1612,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--twitter__header.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/icon--twitter__header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp\/wp-content\/themes\/borderplex\/images\/image_qua.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -29077,6 +30641,72 @@
 		"initialSize": 1.94832e+06,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/image_qua.png",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/image_qua.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/img--arrow__azul.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1093,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img--arrow__azul.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img--arrow__azul.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/img--arrow__blanca.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1064,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img--arrow__blanca.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img--arrow__blanca.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/img__graphics.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14326,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img__graphics.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img__graphics.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/img__map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30759,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img__map.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img__map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/img__statistics.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14339,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img__statistics.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/img__statistics.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/logo__footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8268,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/logo__footer.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/logo__footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -29092,6 +30722,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/logo_header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6146,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/logo_header.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/logo_header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp\/wp-content\/themes\/borderplex\/images\/slider.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -29099,6 +30740,17 @@
 		"initialSize": 982147,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/slider.png",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/slider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/imgs\/controls.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2806,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/imgs\/controls.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/imgs\/controls.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -29134,6 +30786,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp\/wp-content\/themes\/borderplex\/js\/funciones-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/funciones-min.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/min\/funciones-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp\/wp-content\/themes\/borderplex\/js\/funciones.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -29145,9 +30808,53 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp\/wp-content\/themes\/borderplex\/js\/picturefill.js": {
+	"\/wp\/wp-content\/themes\/borderplex\/js\/libs\/jquery.bxslider.js": {
 		"fileType": 64,
 		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/libs\/jquery.bxslider.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/libs\/min\/jquery.bxslider-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/js\/libs\/jquery.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/libs\/jquery.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/libs\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/js\/libs\/lazysizes.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/libs\/lazysizes.min.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/libs\/min\/lazysizes.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/js\/libs\/picturefill.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/libs\/picturefill.js",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/libs\/min\/picturefill-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/js\/picturefill.js": {
+		"fileType": 64,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/picturefill.js",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/js\/min\/picturefill-min.js",
@@ -29155,6 +30862,33 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/login.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/login.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/page-templates\/page_1.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/page-templates\/page_1.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/page-templates\/page_2.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/page-templates\/page_2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/wp\/wp-content\/themes\/borderplex\/page.php": {
 		"fileType": 8192,
@@ -29226,6 +30960,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/themes\/borderplex\/partes\/jquery.bxslider.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/partes\/jquery.bxslider.styl",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/css\/jquery.bxslider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
 	"\/wp\/wp-content\/themes\/borderplex\/partes\/login.styl": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -29241,15 +30991,6 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
-		},
-	"\/wp\/wp-content\/themes\/borderplex\/partes\/page-templates\/personalizada.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/partes\/page-templates\/personalizada.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/wp\/wp-content\/themes\/borderplex\/partes\/style--fonts.styl": {
 		"createSourceMap": 0,
@@ -29287,7 +31028,7 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"fileType": 8,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/partes\/style--nav.styl",
@@ -29376,6 +31117,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp\/wp-content\/themes\/borderplex\/searchform.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/searchform.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/themes\/borderplex\/sidebar.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -29427,6 +31177,40 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex_html\/css\/style1.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex_html\/css\/style1.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex_html\/css\/style1.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex_html\/css\/style1.styl",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex_html\/css\/style1.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex_html\/css\/style2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex_html\/css\/style2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/wp\/wp-content\/themes\/borderplex_html\/images\/back_quality.png": {
 		"fileType": 32768,
@@ -29534,6 +31318,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/themes\/borderplex_html\/quality1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex_html\/quality1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex_html\/quality2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex_html\/quality2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp\/wp-content\/themes\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -29542,6 +31344,193 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-1024x683.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114727,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-1024x683.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-1024x683.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-1080x500.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103952,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-1080x500.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-1080x500.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5892,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-300x200.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13833,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-300x200.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-300x200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-330x330.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22366,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-330x330.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-330x330.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-500x500.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45881,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-500x500.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-500x500.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-768x512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70585,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-768x512.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n-768x512.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99470,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/13259601_501356160055112_412061020_n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-150x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6159,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-150x120.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-150x120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-300x65.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12805,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-300x65.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-300x65.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-330x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11887,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-330x120.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-330x120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-500x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22167,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-500x120.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo-500x120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28345,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/borderplex_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19315,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-150x150.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-300x193.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26832,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-300x193.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-300x193.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-330x231.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26521,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-330x231.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/logo_footer-330x231.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2016\/07\/logo_footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32250,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/logo_footer.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2016\/07\/logo_footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp\/wp-cron.php": {
 		"fileType": 8192,

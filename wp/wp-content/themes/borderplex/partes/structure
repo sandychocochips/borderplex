@@ -1,0 +1,120 @@
+
+//////////////////
+CPT
+
+Slider
+News (Post)
+
+
+//////////////////
+Plantillas Pages
+
+Custom Page
+Regional Data
+
+
+//////////////////
+CF
+
+Slider - slides (CPT)
+	Imagen - Full -- image
+	Link -- link
+	Texto -- text
+
+Header (options)
+	Logo  -- logo_header
+	Social  -- social
+		Icon -- icon
+		Link -- link
+
+Home (options)
+	What is Borderplex (ygwyw)  -- w_borderplex
+	Banner industries  -- b_industries
+	Banner Initiatives  -- b_initiatives
+
+Footer (options)
+	Phone -- phone
+	Mail -- mail
+	Address -- address
+	Logo -- logo
+
+Custom Page
+	Block Text / Image Sides -- text_image_sides
+		Title -- title
+		Text -- text
+		Image -- image
+	Block Background Image -- bg_image
+		Background image  -- background_image
+		Title -- title
+		Text Left -- text_left
+		Text Right -- text_right
+	Block Items -- items
+		Items -- items
+			Title -- title
+			Text -- text
+			Thumb -- thumb
+	Block Full Text -- full_text
+		Title -- title
+		Text -- text
+	Block Table -- table
+		Title -- title
+		Table -- table
+	Block Bullets -- bullets
+		Title -- title
+		List -- list
+			List item -- list_item
+	Accordion -- accordion
+		title
+		text
+	Triple -- triple
+		column
+			title
+			image
+
+** Pendiente
+Regional Data
+	Map (image) -- map
+	Statistics (image) -- statistics
+	Abstract -- abstract
+	Download --
+	Doing business here -- 
+	The economy -- 
+	Quick view -- 
+	Facts & figures -- 
+	Industry sectors -- 
+	Rankings -- 
+	Incentives -- 
+	International investment & trade -- 
+	Site selection -- 
+	Commercial real estate -- 
+
+//////////////////
+Taxonomies
+
+
+//////////////////
+Menus
+
+Main Menu
+Top
+
+
+
+
+//////////////////
+
+Thumb
+140 x 140
+	-> 330 x 330
+
+"Medium"
+300 x 300
+	-> 500 * 500
+
+
+
+
+
+
+
+Footer

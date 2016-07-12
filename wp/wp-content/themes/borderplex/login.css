@@ -1,0 +1,21 @@
+body {
+  background: #fff !important;
+}
+#backtoblog {
+  margin-top: 8px !important;
+}
+#login {
+  margin: auto auto auto 3%;
+  padding-top: 4% !important;
+}
+#login h1 a {
+  background: url("images/borderplex_logo.png") no-repeat center center !important;
+  background-size: 100% auto !important;
+  height: 130px;
+  width: 90%;
+}
+.login #backtoblog a,
+.login #nav a,
+.login h1 a {
+  color: #999;
+}

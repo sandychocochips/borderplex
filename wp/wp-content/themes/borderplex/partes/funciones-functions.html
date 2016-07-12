@@ -98,56 +98,6 @@ function add_custom_taxonomies() {
 }
 add_action( 'init', 'add_custom_taxonomies', 0 );
 
-// CPT
-function cpt_tema() {
-	register_post_type('galeria', array(
-		'label' => 'Galerías',
-		'description' => '',
-		'menu_icon' => 'dashicons-palmtree',
-		'public' => true,
-		'show_ui' => true,
-		'show_in_menu' => true,
-		'capability_type' => 'post',
-		'map_meta_cap' => true,
-		'hierarchical' => true,
-		'rewrite' => array('slug' => 'galeria', 'with_front' => true),
-		'query_var' => true,
-		'menu_position' => 8, /* */ 
-		'has_archive' => true,
-		'supports' => array('title','thumbnail'),
-		'labels' => array (
-			'name' => 'Galería',
-			'singular_name' => 'Galería',
-			'menu_name' => 'Galería',
-			'add_new' => 'Agregar nuevo',
-			'add_new_item' => 'Agregar nueva Galería',
-			'edit' => 'Editar',
-			'edit_item' => 'Editar Galería',
-			'new_item' => 'Nueva Galería',
-			'view' => 'Ver',
-			'view_item' => 'Ver Galería',
-			'search_items' => 'Buscar',
-			'not_found' => 'No se encontraron resultados',
-			'not_found_in_trash' => 'No se encontraron resultados en la basura',
-			'parent' => 'Galería superior',
-		)
-	) );
-}
-add_action('init', 'cpt_tema');
-
-// Ver custom post types en búsquedas y categorías
-add_filter('pre_get_posts', 'query_post_type');
-function query_post_type($query) {
-	if(is_category() || is_tag()) {
-	   $post_type = get_query_var('post_type');
-		if($post_type)
-			$post_type = $post_type;
-		else
-			$post_type = array('nav_menu_item','post','cpt', 'carrusel'); // replace cpt to your custom post type
-			$query->set('post_type',$post_type);
-			return $query;
-   }
-}
 
 // Extensión personalizada de excerpt
 function custom_excerpt_length($length) {
@@ -191,44 +141,6 @@ function insert_attachment( $file_handler, $post_id, $settpdf='false' ) {
 	if ( $settpdf ) update_post_meta( $post_id,'_pdf_id', $attach_id );
 
 	return $attach_id;
-}
-
-// Insertar Breadcrumb    
-function the_breadcrumb() {
-    global $post;
-    echo '<ul id="breadcrumbs">';
-    if (!is_home()) {
-        echo '<li><a href="';
-        echo get_option('home');
-        echo '">';
-        echo 'Bal-ondeo';
-        echo '</a></li><li> <span class="asim-caret-right"></span> </li>';
-        if (is_category() || is_single()) {
-            echo '<li>';
-            the_category(' </li><li class="separator"> <span class="asim-caret-right"></span> </li><li> ');
-            if (is_single()) {
-                echo '</li><li class="separator"> <span class="asim-caret-right"></span> </li><li>';
-                the_title();
-                echo '</li>';
-            }
-        } elseif (is_page()) {
-            if($post->post_parent){
-                $anc = get_post_ancestors( $post->ID );
-                $title = get_the_title();
-                foreach ( $anc as $ancestor ) {
-                    $output = '<li><a href="'.get_permalink($ancestor).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></li> <li class="separator"><span class="asim-caret-right"></span></li>';
-                }
-                echo $output;
-                echo $title;
-            } else {
-                echo '<li>'.get_the_title().'</li>';
-            }
-        }
-    }
-    elseif (is_tag()) {single_tag_title();}
-    elseif (isset($_GET['paged']) && !empty($_GET['paged'])) {echo "<li>Archivo Bal-ondeo"; echo'</li>';}
-    elseif (is_search()) {echo"<li>Resultados de búsqueda :"; echo'</li>';}
-    echo '</ul>';
 }
 
 // Shortcode
@@ -309,20 +221,7 @@ function pagination($pages = '', $range = 4)
      }
 }
 
-// Páginas de Configuración para Options de ACF
-add_filter('acf/options_page/settings', 'my_options_page_settings');
-function my_options_page_settings ( $options )
-{
-	$options['title'] = __('Configuración');
-	$options['pages'] = array(
-		__('Página Principal'),
-		__('Servicios'),
-		__('Equipo'),
-		__('Pie de Página')
-	);
-	
-	return $options;
-}
+
 
 
 

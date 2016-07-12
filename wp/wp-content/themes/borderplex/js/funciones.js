@@ -1,7 +1,6 @@
-// @codekit-prepend "jquery.js"
-// @codekit-prepend "picturefill.js"
+// @codekit-prepend "libs/jquery.js", "libs/jquery.bxslider.js", "libs/picturefill.js", "libs/lazysizes.min.js"
 
-// Codigo js para página
+// Codigo js para página Borderplex
 
 /*
 
@@ -49,9 +48,13 @@ function hasClass(el, cls)
 
 document.createElement( "picture" );
 
-function arranque(){
+function carruseles(){
+	$(".js--home--carrusel").bxSlider({
+		auto: true,
+		controls: false
+	});
 }
 
 document.addEventListener('DOMContentLoaded', function(){
-	arranque();
+	carruseles();
 });
