@@ -415,6 +415,9 @@ button {
   color: #fff;
   text-shadow: none;
 }
+body.home .nav--top .sub-menu {
+  margin-top: 16px;
+}
 body,
 html {
   font-size: 17px;
@@ -432,16 +435,25 @@ header figure {
   margin: 20px 0;
   width: 75%;
 }
+h1,
+h2,
+h3,
+h4 {
+  color: #373737;
+}
+input[type="text"]:focus {
+  outline: 0;
+}
 .header_right {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
   background: #f1f1f1;
-  color: #000;
+  color: #373737;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.7em;
+  font-size: 0.7rem;
   justify-content: space-between;
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
@@ -503,6 +515,17 @@ header figure {
   border: none;
   margin-left: 0.4rem;
   text-transform: uppercase;
+  padding: 0.5rem 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.header_right .search input[type="text"]:focus {
+  outline: 0;
+}
+.header_right .search input[type="image"] {
+  height: 20px;
+  width: auto;
 }
 .header_right .social_media {
   margin: 0;
@@ -594,7 +617,7 @@ p {
   background: #fbb716;
 }
 .slider_caption {
-  background: #4874b9;
+  background: rgba(72,116,185,0.85);
   color: #fff;
   padding: 20px;
   position: absolute;
@@ -605,6 +628,14 @@ p {
 .slider_caption p {
   font-size: 1.3em;
   margin: 0 0 20px 0;
+}
+.home__news .wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -ms-align-items: stretch;
+  align-items: stretch;
 }
 .btn {
   width: 185px;
@@ -621,6 +652,15 @@ p {
   height: 100%;
   position: absolute;
   top: 0;
+}
+.btn_t.yellow a,
+.btn_t.green a {
+  color: #fff;
+  font-style: normal;
+}
+.btn_t.yellow:hover,
+.btn_t.green:hover {
+  background: #4874b9;
 }
 .btn_t a {
   margin: 5% 0 0 12%;
@@ -654,19 +694,19 @@ p {
   background: #2cb783;
 }
 .col_2 {
-  width: 49.8%;
+  width: 48%;
   margin: 0;
   display: inline-block;
   vertical-align: top;
   padding: 70px 0;
 }
 .col_2 h3 {
-  margin: 10px 15% 0 15%;
+  margin: 10px 0 0 0;
 }
 .col_2 p,
 .col_2 ol,
 .col_2 ul {
-  margin: 20px 15%;
+  margin: 20px 0;
   padding: 0;
 }
 .col_2 a,
@@ -676,11 +716,40 @@ p {
   color: #565656;
   line-height: 1.5em;
 }
+.home__whatis__map {
+  padding: 0 !important;
+}
 .map {
   width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.svg__map {
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.svg__map--cruces,
+.svg__map--juarez,
+.svg__map--paso {
+  cursor: pointer;
+}
+.svg__map--cruces:hover .svg__map--cruces__fondo {
+  fill: #fdb913;
+}
+.svg__map--juarez:hover .svg__map--juarez__fondo {
+  fill: #fdb913;
+}
+.svg__map--paso:hover .svg__map--paso__fondo {
+  fill: #fdb913;
 }
 .services_home {
-  width: 47%;
+  width: 300px;
   margin: 80px auto;
   position: relative;
 }
@@ -694,11 +763,16 @@ p {
 .gray {
   background: #ebebeb;
 }
-.news_box {
-  border-right: 1px solid #5f5f5f;
+.home__news__border {
+  width: 1px;
+  background: #5f5f5f;
+  -webkit-align-self: stretch;
+  -ms-align-self: stretch;
+  align-self: stretch;
+  margin: 70px 0;
 }
 .news {
-  margin: 40px 10% 60px 10%;
+  margin: 40px 0 60px 0;
 }
 .news p {
   margin: 0 0 20px 0 !important;
@@ -710,8 +784,8 @@ p {
 .news p.title {
   font-weight: bold;
   font-style: normal !important;
-  color: #000 !important;
-  margin: 10px 0 5px 0 !important;
+  color: #373737 !important;
+  margin: -5px 0 5px 0 !important;
   display: inline-block;
   vertical-align: top;
 }
@@ -776,16 +850,18 @@ footer p {
 .facebook_footer img {
   margin: 8px 0 0 12px;
 }
-footer figure {
-  width: 60%;
-  margin: 0 auto;
+.footer__logo {
+  width: 95%;
+  max-width: 500px;
+  margin: 2rem auto;
 }
-footer figure img {
+.footer__logo img {
   margin: 0 auto;
 }
 .image_qua {
-  margin: 60px auto;
-  width: 90%;
+  margin: 0 auto 60px;
+  width: 100%;
+  max-width: 100%;
 }
 .img_bg {
   background-repeat: no-repeat;
@@ -803,7 +879,7 @@ footer figure img {
   color: #fff !important;
 }
 .p_sp {
-  margin: 130px 10% 0 10% !important;
+  margin: 130px 0 0 0 !important;
 }
 .qua_box {
   width: 80%;
@@ -836,8 +912,10 @@ footer figure img {
   width: 70%;
 }
 .col_1 {
-  width: 80%;
+  width: 95%;
+  max-width: 1100px;
   margin: 60px auto;
+  position: relative;
 }
 .col_1 h3 {
   font-style: normal;
@@ -896,8 +974,35 @@ footer figure img {
 .cont_tr:last-child {
   border-right: 0;
 }
+.page__blockText .wrap,
+.home__news .wrap,
+.home__whatis .wrap,
+.acordeon--texto .wrap,
+.acordeon .wrap,
+.img_bg .wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+}
+.page__blockText .col_2,
+.home__news .col_2,
+.home__whatis .col_2,
+.acordeon--texto .col_2,
+.acordeon .col_2,
+.img_bg .col_2 {
+  width: 48%;
+}
 .acordeon:hover .acordeon--texto {
   max-height: 300vh;
+}
+.acordeon p {
+  font-style: normal;
+}
+.acordeon h3 {
+  margin: 20px 0;
 }
 .acordeon--texto {
   max-height: 0;
@@ -937,16 +1042,24 @@ footer figure img {
   -ms-align-items: center;
   align-items: center;
 }
-
-
-.acordeon p{font-style: normal;}
-.acordeon h3{margin: 20px 15%;}
-.acordeon_p{margin: 70px 15% 0 15%!important;}
-
-.places{width: 250px; height: 230px; margin: 30px auto; overflow: hidden;}
-.places figure{margin: 0 0 -110px 0;}
-
-.col_3{width: 32%; margin:0; display: inline-block; vertical-align: top;}
+.acordeon_p {
+  margin: 70px 15% 0 15% !important;
+}
+.places {
+  width: 250px;
+  height: 230px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+.places figure {
+  margin: 0 0 -110px 0;
+}
+.col_3 {
+  width: 32%;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
 .wrap {
   width: 95%;
   max-width: 1100px;
@@ -1327,7 +1440,7 @@ footer figure img {
     font-style: normal;
   }
   .p_sp {
-    margin: 0 10% !important;
+    margin: 0 0 !important;
   }
   .qua_box {
     width: 90%;
@@ -1429,7 +1542,7 @@ footer figure img {
   font-style: normal;
 }
 .acordeon h3 {
-  margin: 20px 15%;
+  margin: 20px 0;
 }
 .acordeon_p {
   margin: 70px 15% 0 15% !important;

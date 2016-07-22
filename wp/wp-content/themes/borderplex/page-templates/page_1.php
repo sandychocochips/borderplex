@@ -24,7 +24,7 @@ get_header(); ?>
 				$text = get_sub_field('text');
 				$image = get_sub_field('image'); ?>
 
-				<section data-section="Block Text / Image Sides">
+				<section class="page__blockText" data-section="Block Text / Image Sides">
 					<div class="wrap">
 						<div class="col_2">
 							<h3><?php echo $title; ?></h3>

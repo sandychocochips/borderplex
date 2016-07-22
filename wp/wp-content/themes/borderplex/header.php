@@ -82,15 +82,22 @@
 	</div>
 
 	<label for="main-nav-check" class="toggle-menu"></label>
-
+	<?php
+	if ( !is_home() ) { ?>
 	<div class="breadcrumb">
 		<div class="wrap">
 			<div class="a_breadcrum">
 				<?php the_breadcrumb(); ?>
 			</div>
-			<?php languages_list_footer(); ?>
+			<?php
+			if ( !icl_object_id($post->ID, 'post', true) ) {
+				languages_list_footer();
+			}
+			?>
 		</div>
 	</div>
+	<?php }
+	?>
 </header>
 
 <main role='main' class="main">

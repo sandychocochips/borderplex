@@ -55,6 +55,25 @@ function carruseles(){
 	});
 }
 
+function links_map() {
+	var map = {};
+
+	map.cruces = document.querySelectorAll(".js--map");
+
+	Array.prototype.forEach.call(map.cruces, function(el) {
+
+		var link = {};
+		link.href = el.getAttribute('data-link');
+		
+		el.addEventListener('click', function(){
+			console.log(link.href);
+		});
+
+	});
+
+}
+
 document.addEventListener('DOMContentLoaded', function(){
 	carruseles();
+	links_map();
 });

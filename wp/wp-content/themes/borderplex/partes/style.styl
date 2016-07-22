@@ -36,6 +36,12 @@ color__resaltado = #4874B9
 	text-shadow none
 
 body
+	&.home
+		.nav--top
+			.sub-menu
+				margin-top: 16px
+
+body
 html
 	font-size: 17px
 
@@ -50,12 +56,22 @@ header
 		margin: 20px 0
 		width: 75%
 
+h1
+h2
+h3
+h4
+	color #373737
+
+input[type="text"]
+	&:focus
+		outline:0;
+
 .header_right
 	align-items(center)
 	background: #F1F1F1
-	color: #000
+	color: #373737
 	flex()
-	font-size: .7em
+	font-size: .7rem
 	// height: 37px
 	justify-content(space-between)
 	margin: 0
@@ -101,6 +117,15 @@ header
 			border: none
 			margin-left 0.4rem
 			uppercase()
+			padding 0.5rem 0
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			&:focus
+				outline:0;
+		input[type="image"]
+			height: 20px;
+			width: auto;
 
 	.social_media
 		margin: 0
@@ -172,7 +197,7 @@ p
 				bg #fbb716
 
 .slider_caption
-	background: #4874B9
+	background: rgba(#4874B9, 0.85)
 	color: #fff
 	//height: 200px
 	padding: 20px
@@ -183,6 +208,11 @@ p
 	p
 		font-size: 1.3em
 		margin: 0 0 20px 0
+
+.home__news
+	.wrap
+		flex()
+		align-items(stretch)
 
 .btn
 	width: 185px
@@ -198,9 +228,17 @@ p
 	height: 100%
 	position: absolute
 	top: 0
+	&.yellow
+	&.green
+		a
+			color: blanco
+			font-style: normal
+		&:hover
+			bg color__resaltado
 .btn_t a
 	margin: 5% 0 0 12%
 	display: block
+
 .btn_arrow
 	background: #fff
 	height: 100%
@@ -224,17 +262,17 @@ p
 	height: 40px
 	background: #2CB783
 .col_2
-	width: 49.8%
+	width: 48%
 	margin: 0
 	display: inline-block
 	vertical-align: top
 	padding: 70px 0
 	h3
-		margin: 10px 15% 0 15%
+		margin: 10px 0 0 0
 	p
 	ol
 	ul
-		margin: 20px 15%
+		margin: 20px 0
 		padding: 0
 	a
 	li
@@ -242,11 +280,42 @@ p
 		font-style: italic
 		color: #565656
 		line-height: 1.5em
+
+.home__whatis__map
+	padding: 0 !important
+
 .map
 	width: 100%
+	height: 100%
+	overflow: hidden
+	relative()
+
+.svg__map
+	height: 100%
+	width: auto
+	absolute()
+	left 50%
+	top 50%
+	transformar( translate(-50%, -50%) )
+	&--cruces
+	&--juarez
+	&--paso
+		cursor pointer
+	&--cruces
+		&:hover
+			.svg__map--cruces__fondo
+				fill #FDB913
+	&--juarez
+		&:hover
+			.svg__map--juarez__fondo
+				fill #FDB913
+	&--paso
+		&:hover
+			.svg__map--paso__fondo
+				fill #FDB913
 
 .services_home
-	width: 47%
+	width: 300px
 	margin: 80px auto
 	relative()
 	figure
@@ -257,10 +326,15 @@ p
 
 .gray
 	background: #ebebeb
-.news_box
-	border-right: 1px solid #5F5F5F
+
+.home__news__border
+	width: 1px
+	background: #5F5F5F
+	align-self(stretch)
+	margin: 70px 0;
+
 .news
-	margin: 40px 10% 60px 10%
+	margin: 40px 0 60px 0
 	p
 		margin: 0 0 20px 0!important
 		font-style: normal!important
@@ -270,8 +344,8 @@ p
 		&.title
 			font-weight: bold
 			font-style: normal !important
-			color: #000 !important
-			margin: 10px 0 5px 0 !important
+			color: #373737 !important
+			margin: -5px 0 5px 0 !important
 			display: inline-block
 			vertical-align: top
 	&.news__highlights
@@ -295,6 +369,8 @@ footer
 		color: #fff
 		font-style: normal
 		font-size: 1em
+
+
 .blue_bar
 	background: #224294
 	width: 100%
@@ -322,14 +398,17 @@ footer
 	margin: 8px 0 0 8px
 .facebook_footer img
 	margin: 8px 0 0 12px
-footer figure
-	width: 60%
-	margin: 0 auto
-footer figure img
-	margin: 0 auto
+.footer__logo
+	width: 95%
+	max-width: 500px
+	margin: 2rem auto
+	img
+		margin: 0 auto
+
 .image_qua
-	margin: 60px auto
-	width: 90%
+	margin: 0 auto 60px
+	width: 100%
+	max-width: 100%
 .img_bg
 	background-repeat: no-repeat
 	background-size: cover
@@ -344,7 +423,7 @@ footer figure img
 .white
 	color: #fff!important
 .p_sp
-	margin: 130px 10% 0 10%!important
+	margin: 130px 0 0 0!important
 
 .qua_box
 	width: 80%
@@ -372,23 +451,26 @@ footer figure img
 	vertical-align: top
 	margin: 30px 0
 	width: 70%
+
 .col_1
-	width: 80%
-	margin: 60px auto
-.col_1 h3
-	font-style: normal
-.col_1 p
-	font-style: normal
-.col_1 table
-	margin: 30px auto
-	width: 100%
-	text-align: left
-.col_1 table th
-	border-top: 1px #000 solid
-	border-bottom: 1px #000 solid
-	padding: 10px 0
-.col_1 table tbody tr
-	margin: 0 0 10px 0
+	width: 95%
+	max-width: 1100px
+	margin 60px auto
+	relative()
+	h3
+		font-style: normal
+	p
+		font-style: normal
+	table
+		margin: 30px auto
+		width: 100%
+		text-align: left
+	table th
+		border-top: 1px #000 solid
+		border-bottom: 1px #000 solid
+		padding: 10px 0
+	table tbody tr
+		margin: 0 0 10px 0
 .tabla
 	width: 100%
 	margin: 30px auto
@@ -420,11 +502,26 @@ footer figure img
 .cont_tr:last-child
 	border-right: 0
 
+.page__blockText
+.home__news
+.home__whatis
+.acordeon--texto
+.acordeon
+.img_bg
+	.wrap
+		flex()
+		justify-content(space-between)
+	.col_2
+		width: 48%
 
 .acordeon
 	&:hover
 		.acordeon--texto
 			max-height: 300vh
+	p
+		font-style: normal;
+	h3
+		margin: 20px 0;
 
 .acordeon--texto
 	max-height: 0
@@ -450,18 +547,22 @@ footer figure img
 		justify-content(space-between)
 		align-items(center)
 
-@css{
+.acordeon_p
+	margin: 70px 15% 0 15%!important;
 
-.acordeon p{font-style: normal;}
-.acordeon h3{margin: 20px 15%;}
-.acordeon_p{margin: 70px 15% 0 15%!important;}
+.places
+	width: 250px
+	height: 230px
+	margin: 30px auto
+	overflow: hidden
+	figure
+		margin: 0 0 -110px 0;
 
-.places{width: 250px; height: 230px; margin: 30px auto; overflow: hidden;}
-.places figure{margin: 0 0 -110px 0;}
-
-.col_3{width: 32%; margin:0; display: inline-block; vertical-align: top;}
-
-}
+.col_3
+	width: 32%
+	margin:0
+	display: inline-block
+	vertical-align: top;
 
 .wrap
 	width: 95%
@@ -625,7 +726,7 @@ footer figure img
 	.img_bg p
 		font-style: normal
 	.p_sp
-		margin: 0 10%!important
+		margin: 0 0!important
 	.qua_box
 		width: 90%
 		margin: 0 auto
@@ -707,7 +808,7 @@ footer figure img
   .acordeon p
 		font-style: normal
   .acordeon h3
-		margin: 20px 15%
+		margin: 20px 0
   .acordeon_p
 		margin: 70px 15% 0 15%!important
 

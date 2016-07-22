@@ -27,18 +27,17 @@
 				<a href="#" class="facebook_footer"><img src="<?php ruta_imagenes(); ?>facebook_footer.svg" /></a>
 			</div>
 	</div>
-	<figure>
-		<img src="<?php ruta_imagenes(); ?>logo_footer.png" />
+	<figure class="footer__logo">
+		<?php
+		$logo = get_field("logo", 'option');
+		if ( $logo ) { ?>
+			<img src="<?php echo $logo; ?>" />
+		<?php }
+		?>
 	</figure>
 </footer>
 
 <?php wp_footer(); ?>
-
-<!-- Sólo en desarrollo -->
-<style type="text/css">
-	html{margin-top:0 !important;}
-	#wpadminbar{display: none;}
-</style>
 
 </body>
 </html>
