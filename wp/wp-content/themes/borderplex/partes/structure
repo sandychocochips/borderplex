@@ -56,7 +56,7 @@ Custom Page
 	Block Full Text -- full_text
 		Title -- title
 		Text -- text
-	Block Table -- table
+	Block Table -- block_table
 		Title -- title
 		Table -- table
 	Block Bullets -- bullets
@@ -64,12 +64,23 @@ Custom Page
 		List -- list
 			List item -- list_item
 	Accordion -- accordion
-		title
-		text
+		Title -- title
+		Text Left -- text
+		Text Right -- text_right
 	Triple -- triple
 		column
 			title
 			image
+	Block Two columns -- two_columns
+		Title -- title
+		Text Left -- text_left
+		Text Right -- text_right
+	Block Biography -- block_biography
+		Title -- title
+		Text -- text
+		Image -- image
+		Contact -- contact
+		More -- more
 
 ** Pendiente
 Regional Data

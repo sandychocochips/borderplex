@@ -11,8 +11,8 @@
 
 <body <?php body_class(); ?>>
 
-<header role="banner">
-	<div class="wrap">
+<header class="encabezado" role="banner">
+	<div class="wrap header_logo js--header_logo">
 		<?php
 			$logo_header = get_field('logo_header', 'option');
 			if ($logo_header) { ?>
@@ -50,7 +50,7 @@
 				$link = $soc['link'];
 				?>
 
-				<a href="<?php echo $link; ?>" class="twitter">
+				<a href="<?php echo $link; ?>" target="_blank">
 					<img src="<?php echo $icon; ?>" >
 				</a>
 
@@ -61,23 +61,23 @@
 		?>
 	</div>
 
-	<div>
+	<div class="header_menu">
 
-	<input type="checkbox" class="checkbox__hack" id="checkbox__hack">
-	<label for="checkbox__hack" class="checkbox-hack__label"></label> 
+		<input type="checkbox" class="checkbox__hack" id="checkbox__hack">
+		<label for="checkbox__hack" class="checkbox-hack__label js--checkbox-hack__label"></label> 
 
-	<nav role="navigation" class="nav--top">
-		<div class="wrap">
-			<?php 
-			wp_nav_menu( array(
-				'theme_location' => 'main',
-				'items_wrap'      => '<ul id="nav" class="nav--top__list">%3$s</ul>',
-				'container' => '',
-				'depth' => 2
-			) );
-			?>
-		</div>
-	</nav>
+		<nav role="navigation" class="nav--top js--nav--top">
+			<div class="wrap">
+				<?php 
+				wp_nav_menu( array(
+					'theme_location' => 'main',
+					'items_wrap'      => '<ul id="nav" class="nav--top__list js--nav--top__list">%3$s</ul>',
+					'container' => '',
+					'depth' => 2
+				) );
+				?>
+			</div>
+		</nav>
 
 	</div>
 

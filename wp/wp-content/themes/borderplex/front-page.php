@@ -4,7 +4,8 @@
 	<div class="js--home--carrusel">
 	<?php
 		$args = array(
-			'post_type' => 'slider'
+			'post_type' => 'slider',
+			// 'posts_per_page' => 1
 		);
 		$slides = get_posts($args);
 		?>
@@ -14,7 +15,8 @@
 				$el_titulo = $slide->post_title;
 				$text = get_field("text" , $slide->ID);
 				$image = get_field("image" , $slide->ID);
-				$link = get_field("link" , $slide->ID);
+				$link = get_field("link", $slide->ID);
+				$button_name = get_field("button_name", $slide->ID);
 				?>
 
 			<article class="slider">
@@ -43,18 +45,22 @@
 					</picture>
 				</figure>
 
-				<div class="slider_caption">
-					<?php
-					if ($text) { ?>
-						<?php echo $text; ?>
-					<?php }
-					?>
-					<div class="btn">
-						<div class="btn_t yellow">
-							<a href="<?php echo $link; ?>">LEARN MORE</a>
-							<div class="btn_arrow"></div>
-							<a href="<?php echo $link; ?>"> <img src="<?php ruta_imagenes(); ?>btn_arrow.png"/></a>
-						</div>
+				<div class="wrap">
+					<div class="slider_caption">
+						<?php
+						if ($text) { ?>
+							<?php echo $text; ?>
+						<?php }
+						?>
+						<a href="<?php echo $link; ?>" class="btn__link">
+							<div class="btn">
+								<div class="btn_t yellow">
+									<div class="btn__texto"><?php echo $button_name; ?></div>
+									<div class="btn__arrow"></div>
+									<img src="<?php ruta_imagenes(); ?>btn_arrow.png"/>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
 			</article>
@@ -70,7 +76,7 @@
 
 <section class="home__whatis">
 	<div class="wrap">
-		<div class="col_2">
+		<div class="col_2 home__whatis__text">
 			<h3>What is Borderplex Alliance?</h3>
 			<?php
 			$w_borderplex = get_field("w_borderplex", 'option');
@@ -85,7 +91,7 @@
 
 				<svg class="svg__map" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 362 241" enable-background="new 0 0 362 241" xml:space="preserve">
 					<g class="js--map svg__map--cruces" data-link="http://borderplexalliance.org/" >
-						<path fill="#CCCCCC" d="M191.154,112.741c-8.566-6.233-22.376-17.923-23.5-29.174c-0.052-0.518-0.077-1.03-0.075-1.535
+						<path fill="#CCCCCC" class="svg__map--cruces__fondo" d="M191.154,112.741c-8.566-6.233-22.376-17.923-23.5-29.174c-0.052-0.518-0.077-1.03-0.075-1.535
 							c0.008-2.019,0.445-3.933,1.306-5.728c0.646-1.346,1.531-2.626,2.652-3.833l0.445-0.479H362V-0.084H0v112.851L191.154,112.741
 							L191.154,112.741z"/>
 						<g>
@@ -320,50 +326,54 @@
 
 <div class="green_b"></div>
 
-<section>
+<section class="home__blocks">
 	<div class="wrap">
 		<div class="col_2">
 			<div class="services_home">
-				<?php
-				$b_industries = get_field("b_industries", 'option');
-				if ( $b_industries ) {
-					$b_industries_array = wp_get_attachment_image_src($b_industries, 'borderplex-medium', true);
-					$b_industries_url = $b_industries_array[0];
+				<a href="#">
+					<?php
+					$b_industries = get_field("b_industries", 'option');
+					if ( $b_industries ) {
+						$b_industries_array = wp_get_attachment_image_src($b_industries, 'borderplex-medium', true);
+						$b_industries_url = $b_industries_array[0];
+						?>
+						<figure>
+							<img src="<?php echo $b_industries_url; ?>" />
+						</figure>
+					<?php }
 					?>
-					<figure>
-						<img src="<?php echo $b_industries_url; ?>" />
-					</figure>
-				<?php }
-				?>
-				<div class="btn">
-					<div class="btn_t yellow">
-						<a>LEARN MORE</a>
-						<div class="btn_arrow"></div>
-						<a> <img src="<?php ruta_imagenes(); ?>btn_arrow.png"/></a>
+					<div class="btn">
+						<div class="btn_t yellow">
+							<div class="btn__texto">INDUSTRIES</div>
+							<div class="btn__arrow"></div>
+							<img src="<?php ruta_imagenes(); ?>btn_arrow.png"/>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 		<div class="col_2">
 			<div class="services_home">
-				<?php
-				$b_initiatives = get_field("b_initiatives", 'option');
-				if ( $b_initiatives ) {
-					$b_initiatives_array = wp_get_attachment_image_src($b_initiatives, 'borderplex-medium', true);
-					$b_initiatives_url = $b_initiatives_array[0];
+				<a href="#">
+					<?php
+					$b_initiatives = get_field("b_initiatives", 'option');
+					if ( $b_initiatives ) {
+						$b_initiatives_array = wp_get_attachment_image_src($b_initiatives, 'borderplex-medium', true);
+						$b_initiatives_url = $b_initiatives_array[0];
+						?>
+						<figure>
+							<img src="<?php echo $b_initiatives_url; ?>" />
+						</figure>
+					<?php }
 					?>
-					<figure>
-						<img src="<?php echo $b_initiatives_url; ?>" />
-					</figure>
-				<?php }
-				?>
-				<div class="btn">
-					<div class="btn_t yellow">
-						<a>LEARN MORE</a>
-						<div class="btn_arrow"></div>
-						<a> <img src="<?php ruta_imagenes(); ?>btn_arrow.png"/></a>
+					<div class="btn">
+						<div class="btn_t yellow">
+							<div class="btn__texto">INITIATIVES</div>
+							<div class="btn__arrow"></div>
+							<img src="<?php ruta_imagenes(); ?>btn_arrow.png"/>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -371,7 +381,7 @@
 
 <section class="gray home__news">
 	<div class="wrap">
-		<div class="col_2">
+		<div class="col_2 home__news__newsArchive">
 			<h3>News</h3>
 
 			<?php 
@@ -396,13 +406,15 @@
 					<div class="news">
 						<p class="title"><time class=""><?php echo get_the_date('M j, Y', $blogPost->ID); ?></time> <?php echo $the_title; ?></p>
 						<p><?php echo $the_excerpt; ?></p>
-						<div class="btn">
-							<div class="btn_t green">
-								<a href="<?php echo get_permalink($blogPost->ID); ?>">READ MORE</a>
-								<div class="btn_arrow"></div>
-								<a href="<?php echo get_permalink($blogPost->ID); ?>"> <img src="<?php ruta_imagenes(); ?>btn_arrow.png"/></a>
+						<a href="<?php echo get_permalink($blogPost->ID); ?>" class="btn__link">
+							<div class="btn">
+								<div class="btn_t green">
+									<div class="btn__texto">READ MORE</div>
+									<div class="btn__arrow"></div>
+									<img src="<?php ruta_imagenes(); ?>btn_arrow.png"/>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				<?php wp_reset_postdata(); } ?>
 
@@ -414,7 +426,7 @@
 			<?php } ?>
 		</div>
 		<div class="home__news__border"></div>
-		<div class="col_2">
+		<div class="col_2 home__news__highlights">
 			<h3>Highlights</h3>
 
 				<?php 
@@ -452,13 +464,15 @@
 								<div class="news--text">
 									<p class="title"><time class=""><?php echo get_the_date('M j, Y', $blogPost->ID); ?></time> <?php echo $the_title; ?></p>
 									<p><?php echo $the_excerpt; ?></p>
-									<div class="btn">
-										<div class="btn_t green">
-											<a href="<?php echo get_permalink($blogPost->ID); ?>">READ MORE</a>
-											<div class="btn_arrow"></div>
-											<a href="<?php echo get_permalink($blogPost->ID); ?>"> <img src="<?php ruta_imagenes(); ?>btn_arrow.png"/></a>
+									<a href="<?php echo get_permalink($blogPost->ID); ?>"  class="btn__link">
+										<div class="btn">
+											<div class="btn_t green">
+												<div class="btn__texto">READ MORE</div>
+												<div class="btn__arrow"></div>
+												<img src="<?php ruta_imagenes(); ?>btn_arrow.png"/>
+											</div>
 										</div>
-									</div>
+									</a>
 								</div>
 							</div>
 

@@ -17,6 +17,7 @@
 // el__color = #474646
 // color__fondo = #f3f3f3
 color__resaltado = #4874B9
+azul__darker = #204292
 // f__familia = 'Lato', sans-serif;
 // f__uno = 17px
 // casi__blanco = #EFEFEF
@@ -25,13 +26,15 @@ color__resaltado = #4874B9
 // med_query = 640px
 /*generales*/
 
+med_query = 640px
+
 ::-moz-selection
-	background casi__negro
+	background azul__darker
 	color #fff
 	text-shadow none
 
 ::selection
-	background casi__negro
+	background azul__darker
 	color #fff
 	text-shadow none
 
@@ -43,18 +46,12 @@ body
 
 body
 html
-	font-size: 17px
+	font-size:17px
 
 section
 	margin: 0
 	overflow: hidden
 	width: 100%
-header
-	height: auto
-	width: 100%
-	figure
-		margin: 20px 0
-		width: 75%
 
 h1
 h2
@@ -65,6 +62,259 @@ h4
 input[type="text"]
 	&:focus
 		outline:0;
+
+h3
+	font-size: 2rem
+	margin-bottom: 1em
+
+p
+	font-size:17px
+	line-height:26px
+span
+	font-size:17px
+	line-height:26px
+
+.acordeon
+.acordeon--texto
+.home__news
+.home__whatis
+.img_bg
+.page__blockText
+	.wrap
+		flex()
+		justify-content(space-between)
+		flex-wrap(wrap)
+	.col_2
+		width: 48%
+
+.acordeon
+	&.activo
+		.acordeon--texto
+			max-height: 1000vh
+			overflow: visible !important;
+		.acordeon_gray--btn
+			img
+				transformar(rotate(270deg))
+	p
+		font-style: normal;
+	h3
+		margin: 20px 0;
+
+.acordeon--texto
+	max-height: 0
+	overflow: hidden
+	transicion( 0.3s all ease )
+
+.acordeon_gray
+	cursor pointer
+	padding: 0.4rem 0
+	margin-bottom: 0.4rem
+	h3
+		margin: 0 30px !important;
+		flex_grow(1)
+	.acordeon_gray--btn
+		bg #4873b8
+		cursor pointer
+		padding 0.6rem 1.5rem
+		img
+			block()
+			transicion( 0.5s all ease )
+			transformar(rotate(90deg))
+	.wrap
+		flex()
+		justify-content(space-between)
+		align-items(center)
+
+// .acordeon_p
+// 	margin: 70px 15% 0 15%!important;
+
+
+.btn
+	color: #fff
+	display: block;
+	font-size: 1em
+	font-weight: bold
+	height: 40px
+	min-width: 185px
+	position: relative
+	text-transform: uppercase
+	width auto
+	img
+		position: absolute
+		right: 10px
+		top: 50%
+		transformar( translate( 0, -50% ) )
+		width: 0.95rem
+		height: auto
+
+.btn_t
+	flex()
+	height: 100%
+	min-width: 185px
+	// padding-right: 50px
+	position: absolute
+	top: 0
+	// width: 100%
+	&.yellow
+	&.green
+		a
+		span
+		.btn__texto
+			color: blanco
+			font-style: normal
+		&:hover
+			bg azul__darker
+	a
+	span
+	.btn__texto
+		margin: 9px 50px 0 10px
+		display: block
+		cursor pointer
+		flex_grow(1)
+
+.btn__link
+	block()
+
+.btn__arrow
+	background: #fff
+	height: 100%
+	opacity: 0.6
+	position: absolute
+	right: 0
+	top: 0
+	width: 40px
+	-webkit-flex-shrink 0
+	flex-shrink 0
+
+.btn__wpAdmin
+	.btn__texto
+		margin 0 0 0 10px !important
+
+.breadcrumb
+	background: #224294
+	padding: 0.3rem 0 0.5rem
+	height: 24px
+	color: #fff
+	margin: 0 auto
+	.wrap
+		align-items(center)
+		flex()
+		justify-content(space-between)
+	.a_breadcrum
+		flex_grow(1)
+		margin: 0 auto
+		padding: 4px 0 0 0
+
+.breadcrumb--list
+	flex()
+	margin 0
+	padding: 0
+	li
+		list-style: none
+		margin 0 0.2rem 0
+
+.block--gray
+	margin-bottom: 0.4rem
+
+// .col_1
+// 	padding: 70px 0
+// 	width: 100%
+
+.col_1
+	width: 95%
+	max-width: 1100px
+	margin 60px auto
+	relative()
+	a
+		font-style: italic
+		color: #565656
+	h3
+		font-style: normal
+	p
+	ol
+	ul
+		margin: 0 0 20px
+		font-style: normal
+	ol
+	ul
+		padding: 0 0 0 1.1rem
+	a
+	li
+	p
+		color: #565656
+		line-height: 1.5em
+	a
+	li
+		font-style: italic
+	table
+		margin: 30px auto
+		width: 100%
+		text-align: left
+	table th
+		border-top: 1px #000 solid
+		border-bottom: 1px #000 solid
+		padding: 10px 0
+	table tbody tr
+		margin: 0 0 10px 0
+
+.col_2
+	display: inline-block
+	margin: 0
+	padding: 70px 0
+	vertical-align: top
+	width: 48%
+	// h3
+	// 	margin: 10px 0 0 0
+	p
+	ol
+	ul
+		margin: 0 0 20px
+		font-style: normal
+	ol
+	ul
+		padding: 0 0 0 1.1rem
+	a
+	li
+	p
+		color: #565656
+		line-height: 1.5em
+	a
+	// li
+		font-style: italic
+
+.col_3
+	width: 32%
+	margin:0
+	display: inline-block
+	vertical-align: top;
+
+.encabezado
+	height: auto
+	width: 100%
+	a
+		block()
+	figure
+		margin: 20px 0
+		width: 75%
+
+
+.gray
+	background: #ebebeb
+
+.home__blocks
+	.col_2
+		padding 60px 0 !important
+
+.home__news
+	.wrap
+		flex()
+		align-items(stretch)
+
+// .header_menu
+// 	relative()
+
+.header_logo
+	overflow: auto
 
 .header_right
 	align-items(center)
@@ -110,14 +360,18 @@ input[type="text"]
 		fieldset
 			border none
 			padding 0
-			flex()
-			align-items(center)
+			// flex()
+			// align-items(center)
+			// justify-content(space-between)
+			width: 20vw;
+			min-width: 80px;
 		input[type="text"]
 			bg none
 			border: none
-			margin-left 0.4rem
-			uppercase()
+			margin 0 !important
 			padding 0.5rem 0
+			uppercase()
+			width unquote( calc( 100% - 35px ) )
 			-webkit-appearance: none;
 			-moz-appearance: none;
 			appearance: none;
@@ -126,6 +380,9 @@ input[type="text"]
 		input[type="image"]
 			height: 20px;
 			width: auto;
+			// margin 0.5rem 0 0 0 !important
+			position: relative;
+			top: 5px;
 
 	.social_media
 		margin: 0
@@ -135,52 +392,6 @@ input[type="text"]
 		a
 			display: inline-block
 			margin-left 0.5rem
-
-.breadcrumb
-	background: #224294
-	padding: 0.3rem 0 0.5rem
-	height: 24px
-	color: #fff
-	margin: 0 auto
-	.wrap
-		align-items(center)
-		flex()
-		justify-content(space-between)
-	.a_breadcrum
-		flex_grow(1)
-		margin: 0 auto
-		padding: 4px 0 0 0
-
-.breadcrumb--list
-	flex()
-	margin 0
-	padding: 0
-	li
-		list-style: none
-		margin 0 0.2rem 0
-
-.block--gray
-	margin-bottom: 0.4rem
-
-h3
-	font-size: 2em
-p
-	font-size: 1.2em
-
-.slider
-	position: relative
-	figure
-		max-height: 460px
-		height: 460px
-		overflow hidden
-		relative()
-		img
-			absolute()
-			left 50%
-			top 50%
-			transformar( translate(-50%, -50%) )
-			width: 100%
-			height: auto
 
 .home--slider
 	.bx-wrapper
@@ -196,62 +407,71 @@ p
 			&.bx-default-pager a.active
 				bg #fbb716
 
+.home__news__border
+	width: 1px
+	background: #5F5F5F
+	align-self(stretch)
+	margin: 70px 0;
+
+.home__whatis__map
+	padding: 0 !important
+
+.image_qua
+	margin: 0 auto 60px
+	width: 100%
+	max-width: 100%
+
+.img_bg
+	background-repeat: no-repeat
+	background-size: cover
+	background-color: #82a6e7
+	//height: 600px
+	width: auto
+	a
+	li
+	p
+		font-style: normal
+		color: #fff!important
+
+.slider
+	position: relative
+	figure
+		max-height: 460px
+		height: 460px
+		overflow hidden
+		relative()
+		img
+			// absolute()
+			// left 50%
+			// top 50%
+			// transformar( translate(-50%, -50%) )
+			// width: 100%
+			// height: auto
+			object-fit: cover;
+			max-width: 4000px;
+			width: 100%;
+			height: 100%
+	.wrap
+		absolute()
+		height: 100%
+		left 50%
+		top 0
+		transformar( translate( -50%, 0 ) );
+
 .slider_caption
 	background: rgba(#4874B9, 0.85)
 	color: #fff
 	//height: 200px
 	padding: 20px
 	position: absolute
-	right: 20px
+	right: 0
 	top: 30%
 	width: 435px
 	p
-		font-size: 1.3em
+		font-size: 19px
+		inter 24px
 		margin: 0 0 20px 0
 
-.home__news
-	.wrap
-		flex()
-		align-items(stretch)
-
-.btn
-	width: 185px
-	text-transform: uppercase
-	font-size: 1em
-	height: 40px
-	display: block
-	position: relative
-	font-weight: bold
-	color: #fff
-.btn_t
-	width: 100%
-	height: 100%
-	position: absolute
-	top: 0
-	&.yellow
-	&.green
-		a
-			color: blanco
-			font-style: normal
-		&:hover
-			bg color__resaltado
-.btn_t a
-	margin: 5% 0 0 12%
-	display: block
-
-.btn_arrow
-	background: #fff
-	height: 100%
-	opacity: 0.6
-	position: absolute
-	right: 0
-	top: 0
-	width: 20%
-.btn img
-	position: absolute
-	right: 7%
-	top: 10%
-	width: 5%
 .yellow
 	background: #FBB716
 .green
@@ -261,28 +481,6 @@ p
 	margin: 0
 	height: 40px
 	background: #2CB783
-.col_2
-	width: 48%
-	margin: 0
-	display: inline-block
-	vertical-align: top
-	padding: 70px 0
-	h3
-		margin: 10px 0 0 0
-	p
-	ol
-	ul
-		margin: 20px 0
-		padding: 0
-	a
-	li
-	p
-		font-style: italic
-		color: #565656
-		line-height: 1.5em
-
-.home__whatis__map
-	padding: 0 !important
 
 .map
 	width: 100%
@@ -316,22 +514,14 @@ p
 
 .services_home
 	width: 300px
-	margin: 80px auto
+	margin: 0 auto
 	relative()
-	figure
-		margin: 0 0 -40px 0
+	// figure
+	// 	margin: 0 0 -40px 0
 	.btn
 		absolute()
 		right: 0
-
-.gray
-	background: #ebebeb
-
-.home__news__border
-	width: 1px
-	background: #5F5F5F
-	align-self(stretch)
-	margin: 70px 0;
+		bottom 0
 
 .news
 	margin: 40px 0 60px 0
@@ -348,11 +538,16 @@ p
 			margin: -5px 0 5px 0 !important
 			display: inline-block
 			vertical-align: top
+	figure
+		flex-shrink: 0
+		-webkit-flex-shrink 0
+		margin-right: 5%
 	&.news__highlights
 		flex()
 		justify-content(space-between)
 	.news--text
-		width: unquote( calc( 100% - 160px ) )
+		// width: unquote( calc( 100% - 160px ) )
+		flex_grow(1)
 
 figure.highlights
 	width: 143px
@@ -360,120 +555,194 @@ figure.highlights
 	display: block
 	vertical-align: top
 
-footer
-	display: block
+.piePagina
 	p
-		display: inline-block
-		vertical-align: top
-		margin: 20px 0 0 60px
+		// margin: 20px 0 0 60px
 		color: #fff
-		font-style: normal
-		font-size: 1em
-
-
-.blue_bar
-	background: #224294
-	width: 100%
-	height: 60px
-	color: #fff
-.info
-	width: 70%
-	display: inline-block
-	margin: 0 0  0 5%
-.redes_footer
-	width: 20%
-	display: inline-block
-	vertical-align: top
-	margin: 0 0 0 40px
-	a
-		width: 30px
-		background: #fff
-		height: 30px
 		display: inline-block
-		vertical-align: top
-		margin: 15px 0 0 30px
-		color: #00963B
-		border-radius: 49%
-.twitter_footer img
-	margin: 8px 0 0 8px
-.facebook_footer img
-	margin: 8px 0 0 12px
-.footer__logo
-	width: 95%
-	max-width: 500px
-	margin: 2rem auto
-	img
-		margin: 0 auto
-
-.image_qua
-	margin: 0 auto 60px
-	width: 100%
-	max-width: 100%
-.img_bg
-	background-repeat: no-repeat
-	background-size: cover
-	background-color: #4873b8
-	//height: 600px
-	width: auto
-	a
-	li
-	p
+		font-size: 1em
 		font-style: normal
-		color: #fff!important
+		vertical-align: top
+	.blue_bar
+		// height: 60px
+		background: #224294
+		color: #fff
+		padding 1rem 0
+		width: 100%
+	.info
+		align-items(center)
+		flex()
+		justify-content(space-between)
+		max-width 730px
+		width: 70%
+	.redes_footer
+		align-items(center)
+		flex()
+		justify-content(space-between)
+		width: 20%
+		max-width: 110px
+		a
+			background: #fff
+			border-radius: 50%
+			color: #00963B
+			flex()
+			align-items(center)
+			justify-content(center)
+			height: 34px
+			margin: 0 0 0 0
+			vertical-align: top
+			width: 34px
+	.footer__logo
+		margin: 2rem auto
+		max-width: 330px
+		width: 95%
+		img
+			margin: 0 auto
+	.wrap
+		align-items(center)
+		flex()
+		justify-content(space-between)
+	&__direccion
+		font-weight: 300;
+	&__mail
+		a
+			font-weight: 300;
+			italic()
+	&__telefono
+		font-weight: 400;
+
 .white
 	color: #fff!important
-.p_sp
-	margin: 130px 0 0 0!important
+
+// .p_sp
+// 	margin: 130px 0 0 0!important
+
+.page__blockImage__content
+	img
+		width: 100%
+		height: auto
+
+.page__blockItems__content
+	width: 100%
+
+.page__blockText__content
+	width: 100%
+	.col_2
+		float: right
+		margin 0 0 2rem 2rem
+		padding-top: 0 !important
+	.image_qua
+		margin 0 !important
+
+.page__twoCols__content
+	.col_2
+		padding 0 !important
+
+.page__twoCols__figure
+	relative()
+	left 50%
+	transformar( translate( -50%, 0 ) )
+	width: 100vw !important
+	max-width: 100vw !important
+	img
+		width: 100vw !important
+		max-width: 100vw !important
 
 .qua_box
-	width: 80%
+	width: 100%
 	margin: 0 auto
-	min-height: 250px
-	padding: 0 0 40px 0
+	min-height: 120px
+	flex()
+	padding: 20px 0 20px 0
 	figure
 		background: #eee
-		margin: 30px 20px 0 0
+		margin: 0 50px 0 0
 		max-width: 220px
 		max-height: 220px
-		display: inline-block
-		vertical-align: top
+		// display: inline-block
+		// vertical-align: top
+		-webkit-flex-shrink 0
+		flex-shrink 0
+		img
+			object-fit: cover;
+			max-width: 4000px;
+			width: 100%;
+			height: 100%
 	h4
-		font-size: 1.2em
+		font-size: 1.5em
 		display: inline-block
 		vertical-align: top
 	p
 		display: inline-block
 		vertical-align: top
 		margin: 15px 0 0 0
+	.q_info
+		margin: 0
+		// width: 70%
+		flex_grow(1)
 
-.q_info
-	display: inline-block
-	vertical-align: top
-	margin: 30px 0
-	width: 70%
+.qua_box--bio
+	margin-top 0 !important
+	.btn__link
+		margin 1rem 0
+		padding 0 !important
+	.bio__moreBtn
+		color #1E4690
+		margin 1rem 0
+		img
+		span
+			vertical-align: middle
+		img
+			height: auto
+			margin-left 8px
+			width: 15px
+		&[data-estado="visible"]
+			img
+				rotar(180deg)
+	.biography__more
+		overflow hidden
+		max-height: 0
+		transicion( 0.3s all ease )
+		&.visible
+			height: auto
+			margin-top 1rem
+			max-height: 1000vh
+	.q_info
+		border-top: 1px solid negro
+		padding: 1rem 0 0
 
-.col_1
-	width: 95%
-	max-width: 1100px
-	margin 60px auto
-	relative()
-	h3
-		font-style: normal
-	p
-		font-style: normal
-	table
-		margin: 30px auto
-		width: 100%
-		text-align: left
-	table th
-		border-top: 1px #000 solid
-		border-bottom: 1px #000 solid
-		padding: 10px 0
-	table tbody tr
-		margin: 0 0 10px 0
+.qua_box__title
+	italic()
+	font-size: 1.1rem
+	font-weight: 300;
+	margin: 1rem 0
+
 .tabla
 	width: 100%
 	margin: 30px auto
+	tbody
+		border-bottom: 1px solid negro
+
+.cont_tr
+	border-left: 1px solid negro
+	border-right: 1px solid negro
+	&:first-child
+		border-left: 0
+	&:last-child
+		border-right: 0
+
+.tabla_hd
+	border-top: 1px solid #000
+	border-bottom: 1px solid #000
+
+.hd_tr
+	padding: 1rem
+	font-weight: 600
+
+.cont_tr
+	padding: 5px 1rem
+
+/*
 .tabla_hd
 	display: inline-block
 	vertical-align: top
@@ -495,60 +764,11 @@ footer
 	vertical-align: top
 	border-right: 1px solid #000
 	padding: 10px 5px
+*/
 .tr1
 	width: 18%
 .tr2
 	width: 20%
-.cont_tr:last-child
-	border-right: 0
-
-.page__blockText
-.home__news
-.home__whatis
-.acordeon--texto
-.acordeon
-.img_bg
-	.wrap
-		flex()
-		justify-content(space-between)
-	.col_2
-		width: 48%
-
-.acordeon
-	&:hover
-		.acordeon--texto
-			max-height: 300vh
-	p
-		font-style: normal;
-	h3
-		margin: 20px 0;
-
-.acordeon--texto
-	max-height: 0
-	overflow: hidden
-	transicion( 0.3s all ease )
-
-.acordeon_gray
-	cursor pointer
-	padding: 0.4rem 0
-	margin-bottom: 0.4rem
-	h3
-		margin: 0 30px !important;
-		flex_grow(1)
-	.acordeon_gray--btn
-		bg #4873b8
-		cursor pointer
-		padding 0.6rem 1.5rem
-		img
-			block()
-			transformar(rotate(90deg))
-	.wrap
-		flex()
-		justify-content(space-between)
-		align-items(center)
-
-.acordeon_p
-	margin: 70px 15% 0 15%!important;
 
 .places
 	width: 250px
@@ -558,20 +778,14 @@ footer
 	figure
 		margin: 0 0 -110px 0;
 
-.col_3
-	width: 32%
-	margin:0
-	display: inline-block
-	vertical-align: top;
-
 .wrap
-	width: 95%
+	width: 100%
 	max-width: 1100px
 	margin 0 auto
 	relative()
 
 @import "style--nav.styl"
-
+/*
 @media (max-width: 1130px) and (min-width: 740px)
 	nav ul li
 		display: inline-block
@@ -811,8 +1025,86 @@ footer
 		margin: 20px 0
   .acordeon_p
 		margin: 70px 15% 0 15%!important
+*/
 
+@media screen and (max-width : med_query)
+	h3
+		text-align: center
+	.acordeon
+	.acordeon--texto
+	.home__blocks
+	.home__news
+	.home__whatis
+	.img_bg
+	.page__blockText
+		.wrap
+			flex-direction(column)
+		.col_2
+			box()
+			padding: 1rem 0
+			width: 100%
+	.breadcrumb
+		height: auto
+	.home__whatis__map
+		min-height: 400px
+	.home__news__border
+		hide()
+	.home__news__newsArchive
+		border-bottom: 10px solid #2cb783
+	.home__news__highlights
+		bg blanco
+	.home__whatis__text
+	.home__news__newsArchive
+	.home__news__highlights
+		padding: 1rem
+	.news
+		&.news__highlights
+			flex()
+			justify-content(space-between)
+	.piePagina
+		.wrap
+			flex-direction(column)
+		.redes_footer
+			flex_order(0)
+		.info
+			flex_order(1)
+			flex-wrap(wrap)
+			talign center
+			justify-content(center)
+			margin-top: 1.5rem
+		&__direccion
+			margin-top: 0.5rem
+			width: 100%
+		&__telefono
+			margin-right: 1rem
+			padding-right 1rem
+			border-right 2px solid blanco
+	.slider_caption
+		box()
+		color: #fff
+		height: auto
+		top: 40%
+		width: 90%
+	.slider_caption p
+		font-size: .9em
+		margin: 0 0 10px 0
+	.svg__map
+		width: 100%
+		height: auto
 
+	.encabezado
+		box()
+		.wrap
+			margin: 0 !important
+		figure
+			margin: 10px 0
+			width: 100%
+	.header_logo
+		box()
+		padding: 0 1rem
+		width: 85%
+	.header_right
+		hide()
 
 // @import "style--fomulario.styl"
 // @import "style--opcionales.styl"

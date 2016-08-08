@@ -30400,6 +30400,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp\/wp-content\/themes\/borderplex\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5145,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/favicon.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp\/wp-content\/themes\/borderplex\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -30465,6 +30476,17 @@
 		"initialSize": 433,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/btn_arrow.png",
 		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/btn_arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/images\/btn_arrow_down.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3182,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/btn_arrow_down.png",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/images\/btn_arrow_down.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -30868,6 +30890,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/login.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp\/wp-content\/themes\/borderplex\/page-templates\/news.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/themes\/borderplex\/page-templates\/news.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
